@@ -1,0 +1,604 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    .containerOffice{ 
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid rgba(148, 148, 148, 0.474);
+        box-shadow: rgba(56, 56, 56, 0.25) 0px 0.0625em 0.0625em, rgba(78, 78, 78, 0.124) 0px 0.125em 0.5em, rgba(79, 79, 79, 0.1) 0px 0px 0px 1px inset;
+
+        .headerOffice{
+            width: 60%;
+
+            h3,h4,p{
+                margin-left: 5%;
+                margin-bottom: 0;
+            }
+
+            p{
+                line-height: 4vh;
+            }
+        }
+
+        .map{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--primary-color-red-700);
+        }
+    }   
+}
+
+/* L DEVICES */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .main{
+        .containerOffice{ 
+            width: 90%;
+            height: 78%;
+        }   
+    }
+
+}
+
+
+/* M DEVICES */
+@media only screen and (max-width: 992px) {
+    .main{
+        .containerOffice{ 
+            flex-direction: column;
+            .headerOffice{
+                width: 90%;
+                padding: 10px;
+                margin-top: 8%;
+                margin-bottom: 30px;
+
+            }
+
+            .map{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                padding: 10px 0;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--primary-color-red-700);
+            }
+        }   
+    }
+
+}
+
+
+
+
+/*++++++++ Extra small devices (phones, portrait) ++++++*/
+@media (max-width: 575.98px) and (max-height: 767.98px){
+    .main{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6%; 
+    }
+
+
+        .main .containerOffice{ 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+        }  
+
+
+        .headerOffice{
+            width: 90%;
+            height: 35vh;
+
+            margin-top: 8%;
+            margin-bottom: 10px;
+            border-bottom: 2 px solid rgb(120, 120, 120);
+        }
+
+            h3,h4,h6{
+                margin-bottom: 0;
+            }
+
+            h6{
+                line-height: 4vh;
+                width: 90%;
+                margin-top: 4%;
+                padding-left: 6%;
+            }
+
+        .mapG{
+            width: 100%;
+            height: 60vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--primary-color-red-700);
+        }
+}
+
+@media (max-width: 575.98px) and (min-height: 768px){
+    .main{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6%; 
+    }
+
+
+        .main .containerOffice{ 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+        }  
+
+
+        .headerOffice{
+            width: 90%;
+            height: 35vh;
+
+            margin-top: 8%;
+            margin-bottom: 10px;
+            border-bottom: 2 px solid rgb(120, 120, 120);
+        }
+
+            h3,h4,h6{
+                margin-bottom: 0;
+            }
+
+            h6{
+                line-height: 4vh;
+                width: 90%;
+                margin-top: 4%;
+                padding-left: 6%;
+            }
+
+        .mapG{
+            width: 100%;
+            height: 60vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--primary-color-red-700);
+        }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+/*++++++++ Small devices (phones, landscape) +++++++++++ */
+@media (min-width: 576px) and (max-width: 767.98px) and (min-height: 300px) and (max-height: 575.98px){ 
+    .main{
+        width: 100vw;
+        min-height: 180vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6%; 
+    }
+
+
+        .main .containerOffice{ 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+        }  
+
+
+        .headerOffice{
+            width: 90%;
+            height: 60vh;
+
+            margin-top: 8%;
+            margin-bottom: 10px;
+            border-bottom: 2 px solid rgb(120, 120, 120);
+        }
+
+            h3,h4,h6{
+                margin-bottom: 0;
+            }
+
+            h6{
+                line-height: 8vh;
+                width: 90%;
+                margin-top: 4%;
+                padding-left: 6%;
+            }
+
+        .mapG{
+            width: 100%;
+            min-height: 70vh;
+
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            background-color: var(--primary-color-red-700);
+
+        }
+}
+
+
+
+
+/*++++++++ Medium devices (tablets, portrait) ++++++++++ */
+@media (min-width: 768px) and (max-width: 991.98px) and (min-height: 300px) and (max-height: 575.98px) {
+    .main{
+        width: 100vw;
+        min-height: 180vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6%; 
+    }
+
+
+        .main .containerOffice{ 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+        }  
+
+
+        .headerOffice{
+            width: 90%;
+            height: 60vh;
+
+            margin-top: 8%;
+            margin-bottom: 10px;
+            border-bottom: 2 px solid rgb(120, 120, 120);
+        }
+
+            h3,h4,h6{
+                margin-bottom: 0;
+            }
+
+            h6{
+                line-height: 8vh;
+                width: 90%;
+                margin-top: 4%;
+                padding-left: 6%;
+            }
+
+        .mapG{
+            width: 100%;
+            height: 100vh;
+
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            background-color: var(--primary-color-red-700);
+
+        }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) and (min-height: 576px){
+    .main{
+        width: 100vw;
+        min-height: 130vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6%; 
+    }
+
+
+        .main .containerOffice{ 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+        }  
+
+
+        .headerOffice{
+            width: 90%;
+            height: 30vh;
+
+            margin-top: 8%;
+            margin-bottom: 10px;
+            border-bottom: 2 px solid rgb(120, 120, 120);
+        }
+
+            h3,h4,h6{
+                margin-bottom: 0;
+            }
+
+            h6{
+                line-height: 4vh;
+                width: 90%;
+                margin-top: 4%;
+                padding-left: 6%;
+            }
+
+        .mapG{
+            width: 100%;
+            height: 100vh;
+
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            background-color: var(--primary-color-red-700);
+
+        }
+}
+
+
+
+/*+++++++++ Large devices (tablets, landscape) ++++++++++*/
+@media (min-width: 992px) and (max-width: 1199.98px) and (min-height: 600px) and (max-height: 1023.98px){
+    .main{
+        width: 100vw;
+        min-height: 170vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6%; 
+    }
+
+
+        .main .containerOffice{ 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+        }  
+
+
+        .headerOffice{
+            width: 90%;
+            height: 60vh;
+
+            margin-top: 8%;
+            margin-bottom: 10px;
+            border-bottom: 2 px solid rgb(120, 120, 120);
+        }
+
+            h3,h4,h6{
+                margin-bottom: 0;
+            }
+
+            h6{
+                line-height: 8vh;
+                width: 90%;
+                margin-top: 4%;
+                padding-left: 6%;
+            }
+
+        .mapG{
+            width: 100%;
+            height: 100vh;
+
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            background-color: var(--primary-color-red-700);
+
+        }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) and (min-height: 1024px){ 
+    .main{
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6%; 
+    }
+
+
+        .main .containerOffice{ 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+        }  
+
+
+        .headerOffice{
+            width: 90%;
+            height: 30vh;
+
+            margin-top: 8%;
+            margin-bottom: 10px;
+            border-bottom: 2 px solid rgb(120, 120, 120);
+        }
+
+            h3,h4,h6{
+                margin-bottom: 0;
+            }
+
+            h6{
+                line-height: 4vh;
+                width: 90%;
+                margin-top: 4%;
+                padding-left: 6%;
+            }
+
+        .mapG{
+            width: 100%;
+            height: 50vh;
+
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            background-color: var(--primary-color-red-700);
+
+        }
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/* Extra large devices (small desktops and larger tablets) */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .main{
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 6%; 
+    }
+
+
+        .main .containerOffice{ 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+        }  
+
+
+        .headerOffice{
+            width: 90%;
+            height: 60vh;
+
+            margin-top: 8%;
+            margin-bottom: 10px;
+            border-bottom: 2 px solid rgb(120, 120, 120);
+        }
+
+            h3,h4,h6{
+                margin-bottom: 0;
+            }
+
+            h6{
+                line-height: 8vh;
+                width: 90%;
+                margin-top: 4%;
+                padding-left: 6%;
+            }
+
+        .mapG{
+            width: 100%;
+            height: 100vh;
+
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            background-color: var(--primary-color-red-700);
+
+        }
+    
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+/*++++++ XX-Large devices (large desktops and up) +++++++*/
+@media (min-width: 1400px) {
+    .main{
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 6%; 
+    }
+
+
+        .main .containerOffice{ 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+        }  
+
+
+        .headerOffice{
+            width: 90%;
+            height: 60vh;
+
+            margin-top: 8%;
+            margin-bottom: 10px;
+            border-bottom: 2 px solid rgb(120, 120, 120);
+        }
+
+            h3,h4,h6{
+                margin-bottom: 0;
+            }
+
+            h6{
+                line-height: 8vh;
+                width: 90%;
+                margin-top: 4%;
+                padding-left: 6%;
+            }
+
+        .mapG{
+            width: 100%;
+            height: 100vh;
+
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            background-color: var(--primary-color-red-700);
+
+        }
+}
