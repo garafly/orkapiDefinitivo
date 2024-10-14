@@ -18,30 +18,30 @@ export default function SobreNosotrosBanner() {
     <div className="bannerContentAbout">
       <div className="textContentAbout">
 
-        <div className="text">
+        <div className="textAbout">
           <h1>10 años de trayectoria</h1>
           <p>Brindando el mejor servicio, respaldado por el mejor equipo de trabajo.</p>
         </div>
-        <div className="button">
+        <div className="buttonAbout">
           <Link to="#mision">
-
           <button className="button2">Conoce nuestra identidad coorporativa</button>
           </Link>
         </div>
 
       </div>
-
-      <div className="graphicContentAbout" style={{ 
-        backgroundImage: `url(${portraits})`, 
-        backgroundRepeat: 'no-repeat',
-        height: '90vh' 
-        }}
-      >
-
-      </div>
+      
     </div>
 
-   </div>
+      <div className="graphicContentAbout" style={{ 
+          backgroundImage: `url(${portraits})`, 
+          backgroundRepeat: 'no-repeat',
+          height: '90vh' 
+          }}
+        >
+
+      </div>
+
+</div>
 
    
 

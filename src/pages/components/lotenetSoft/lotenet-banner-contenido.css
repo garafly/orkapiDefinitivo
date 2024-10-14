@@ -1,662 +1,11 @@
 
-/*++++++++ Extra small devices (phones, portrait) ++++++*/
-@media (max-width: 575.98px) and (max-height: 767.98px){ 
-    .mainContent{
-        width: 100vw;
-        min-height: fit-content;
-        position: relative;
-        overflow: hidden;
-      
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-
-        margin-bottom: 10vh;
-
-    }
-        .mainContent .bannerSystem{
-        /* background image properties */
-        background-position:right bottom;
-        background-size: auto 55%;
-    
-        /* div properties */
-        width: 100%;
-        min-height: 100%;
-        overflow: hidden;
-    
-        position: absolute;
-        top: 0;
-        z-index: 1;
-
-    
-        }
-    
-        .mainContent .bannerContentSystem{
-            width: 100%;
-            height: 100%;
-    
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            align-items: center;
-            z-index: 2;
-
-            position: relative;
-
-        }
-    
-            .bannerContentSystem .textContentSystem{
-                height: 80vh;
-                width: 90%;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: flex-start;
-                gap: 8%;
-                /* background-color: aqua; */
-
-
-            }
-    
-            .textContentSystem .mainTitle{
-                width: 100%;
-                height: 16%;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-
-                align-items: flex-start;
-                margin: 0;
-                padding-left:6% ;
-
-                /* background-color: brown; */
-            }
-
-                .mainTitle h1{
-                    margin: 0;
-                }
-
-
-                .mainTitle p{
-                    margin: 0;
-                }
-  
-
-        .bannerPromotion{
-            width: 90%;
-            height: 20%;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            gap: 10%;
-            padding-left: 6%;
-
-            /* background-color: yellow; */
-        }
-
-        .bannerPromotion h4, button{
-            margin: 0;
-        }
-
-        .bannerPromotion button{
-            width: 75%;
-        }
-    
-
-        .features{
-            width: 100%;
-            height: 30%;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-end;
-
-            padding-left: 6%;
-            gap: 20%;
-
-
-        }
-    
-            .features .feature1{
-                width: 100%;
-
-                display: flex;
-                flex-direction: column;
-
-                margin: 0;
-
-            }
-    
-                .feature1 h3,p{
-                    margin: 0;
-                }
-
-                .feature1 h3{
-                    font-weight: 600;
-                }
-
-                .feature1 p{
-                    width: 100%;
-                    font-size: 16px;
-                }
-    
-    
-        .bannerContentSystem .GraphicContentSystem{
-        width: 95%;
-        height: 30vh;
-
-        display: flex;
-
-        /* background image properties */
-        background-position:top;
-        background-size: auto 80%;
-
-
-        }
-
-}
-
-@media (max-width: 575.98px) and (min-height: 768px){ 
-    .mainContent{
-        width: 100vw;
-        min-height: fit-content;
-        position: relative;
-        overflow: hidden;
-      
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-
-        margin-bottom: 10vh;
-
-    }
-        .mainContent .bannerSystem{
-        /* background image properties */
-        background-position:right bottom;
-        background-size: auto 55%;
-    
-        /* div properties */
-        width: 100%;
-        min-height: 100%;
-        overflow: hidden;
-    
-        position: absolute;
-        top: 0;
-        z-index: 1;
-
-    
-        }
-    
-        .mainContent .bannerContentSystem{
-            width: 100%;
-            height: 100%;
-    
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            align-items: center;
-            z-index: 2;
-
-            position: relative;
-
-        }
-    
-            .bannerContentSystem .textContentSystem{
-                height: 80vh;
-                width: 90%;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: flex-start;
-                gap: 6%;
-                /* background-color: aqua; */
-
-
-            }
-    
-            .textContentSystem .mainTitle{
-                width: 100%;
-                height: 16%;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-
-                align-items: flex-start;
-                margin: 0;
-                padding-left:6% ;
-
-                /* background-color: brown; */
-            }
-
-                .mainTitle h1{
-                    margin: 0;
-                }
-
-
-                .mainTitle p{
-                    margin: 0;
-                }
-  
-
-        .bannerPromotion{
-            width: 90%;
-            height: 20%;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            gap: 10%;
-            padding-left: 6%;
-
-            /* background-color: yellow; */
-        }
-
-        .bannerPromotion h4, button{
-            margin: 0;
-        }
-
-        .bannerPromotion button{
-            width: 80%;
-        }
-
-
-    
-
-        .features{
-            width: 100%;
-            height: 25%;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-
-            padding-left: 6%;
-            gap: 20%;
-
-
-        }
-    
-            .features .feature1{
-                width: 100%;
-
-                display: flex;
-                flex-direction: column;
-
-                margin: 0;
-
-            }
-    
-                .feature1 h3,p{
-                    margin: 0;
-                }
-
-                .feature1 h3{
-                    font-weight: 600;
-                }
-
-                .feature1 p{
-                    width: 100%;
-                    font-size: 18px;
-                }
-    
-    
-        .bannerContentSystem .GraphicContentSystem{
-        width: 95%;
-        height: 30vh;
-
-        display: flex;
-
-        /* background image properties */
-        background-position:top;
-        background-size: auto 80%;
-
-
-        }
-
-}
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-
-
-/*++++++++ Small devices (phones, landscape) +++++++++++ */
-  @media (min-width: 576px) and (max-width: 767.98px) and (min-height: 300px) and (max-height: 575.98px){ 
-    .mainContent{
-        width: 100vw;
-        min-height: 120vh;
-        position: relative;
-        overflow: hidden;
-      
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-
-        margin-bottom: 10vh;
-
-    }
-        .mainContent .bannerSystem{
-        /* background image properties */
-        background-position:right bottom;
-        background-size: auto 100%;
-    
-        /* div properties */
-        width: 100%;
-        min-height: 100%;
-        overflow: hidden;
-    
-        position: absolute;
-        top: 0;
-        z-index: 1;
-
-    
-        }
-    
-        .mainContent .bannerContentSystem{
-            width: 100%;
-            min-height: 100%;
-    
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            align-items: center;
-            z-index: 2;
-
-            position: relative;
-
-        }
-    
-            .bannerContentSystem .textContentSystem{
-                height: 100%;
-                width: 100%;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-                align-items: flex-start;
-                gap: 10%;
-
-            }
-    
-            .textContentSystem .mainTitle{
-                width: 100%;
-                height: 16%;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-
-                align-items: flex-start;
-                margin: 0;
-                padding-left:6% ;
-
-                /* background-color: brown; */
-            }
-
-                .mainTitle h1{
-                    margin: 0;
-                }
-
-
-                .mainTitle p{
-                    margin: 0;
-                }
-  
-
-        .bannerPromotion{
-            width: 90%;
-            height: 20%;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            gap: 10%;
-            padding-left: 6%;
-            margin-top: 6%;
-
-            /* background-color: yellow; */
-        }
-
-        .bannerPromotion h4, button{
-            margin: 0;
-        }
-
-        .bannerPromotion button{
-            width: 80%;
-            margin-top: 10px;
-        }
-    
-
-        .features{
-            width: 100%;
-            height: 25%;
-
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: flex-start;
-
-            padding-left: 6%;
-            margin-top: 6%;
-            gap: 4%;
-
-
-        }
-    
-            .features .feature1{
-                width: 100%;
-
-                display: flex;
-                flex-direction: column;
-                margin: 0;
-
-            }
-    
-                .feature1 h3,p{
-                    margin: 0;
-                    
-                }
-
-                .feature1 h3{
-                    font-weight: 600;
-                    font-size: 24px!important;
-                }
-
-                .feature1 p{
-                    width: 100%;
-                    font-size: 16px;
-                }
-    
-    
-        .bannerContentSystem .GraphicContentSystem{
-        width: 95%;
-        min-height: 140vh;
-
-        display: flex;
-
-        /* background image properties */
-        background-position:top;
-        background-size: 90% auto;
-
-
-        }
-
-  }
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-  
-
-
-/*++++++++ Medium devices (tablets, portrait) ++++++++++ */
-@media (min-width: 768px) and (max-width: 991.98px) and (min-height: 300px) and (max-height: 575.98px) { 
-.mainContent{
+/*++++++++ Default size ++++++*/
+.mainContentLotenet{
     width: 100vw;
-    min-height: 100vh;
+    min-height: fit-content;
     position: relative;
     overflow: hidden;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    margin-bottom: 10vh;
-}
-    .mainContent .bannerSystem{
-    /* background image properties */
-    background-position:right bottom;
-    background-size:  100% auto;
-
-    /* div properties */
-    width: 100%;
-    min-height: 140vh;
-    overflow: hidden;
-
-    position: absolute!important;
-    top: -45vh;
-    z-index: 1;
-
-    }
-
-    .mainContent .bannerContentSystem{
-        width: 100%;
-        min-height: 120vh;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        z-index: 2;
-
-    }
-
-        .bannerContentSystem .textContentSystem{
-            height: 100vh;
-            width: 100%;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-
-        }
-
-        .textContentSystem .mainTitle{
-            width: 95%;
-            height: 40%;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-
-            align-items: flex-start;
-            margin: 0;
-            gap: 4%;
-            padding-left:6% ;
-
-        }
-
-        .mainTitle p{
-            width: 95%;
-        }
-
-
-    .bannerPromotion{
-        width: 95%;
-        height: 30%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 10%;
-        padding-left: 6%;
-
-    }
-
-        .bannerPromotion h4, button{
-            margin: 0;
-        }
-
-
-        .bannerPromotion button{
-            width: 70%;
-            height: 8vh;
-            padding: 0;
-        }
-
-
-    .features{
-        width: 100%;
-        height: 25%;
-
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-
-        padding-left: 6%;
-        margin: 0;
-
-    }
-
-        .features .feature1{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-        }
-
-            .feature1 h3,p{
-                margin: 0;
-            }
-
-            .feature1 h3{
-                font-weight: 600;
-            }
-
-            .feature1 p{
-                width: 100%;
-                font-size: 16px;
-            }
-
-
-    .bannerContentSystem .GraphicContentSystem{
-    width: 90%;
-    min-height: 110vh;
-
-    display: flex;
-
-
-    /* background image properties */
-    background-position:top right;
-    background-size: auto 90%;
-
-
-    }
-
-
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) and (min-height: 576px){ 
-.mainContent{
-    width: 100vw;
-    min-height: 120vh;
-    position: relative;
-    overflow: hidden;
-    
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -666,10 +15,10 @@
     margin-bottom: 10vh;
 
 }
-    .mainContent .bannerSystem{
+    .mainContentLotenet .bannerSystemLotenet{
     /* background image properties */
-    background-position:right center;
-    background-size: auto 60%;
+    background-position:right bottom;
+    background-size: auto 55%;
 
     /* div properties */
     width: 100%;
@@ -683,9 +32,9 @@
 
     }
 
-    .mainContent .bannerContentSystem{
+    .mainContentLotenet .bannerContentSystem{
         width: 100%;
-        min-height: 100%;
+        height: 100%;
 
         display: flex;
         flex-direction: column;
@@ -698,18 +47,19 @@
     }
 
         .bannerContentSystem .textContentSystem{
-            height: 38vh;
-            width: 100%;
+            height: 80vh;
+            width: 90%;
 
             display: flex;
             flex-direction: column;
-            justify-content: flex-end;
+            justify-content: center;
             align-items: flex-start;
-            gap: 12%;
-    
+            gap: 8%;
+
+
         }
 
-        .textContentSystem .mainTitle{
+        .textContentSystem .mainTitleLotenet{
             width: 100%;
             height: 16%;
 
@@ -719,20 +69,17 @@
 
             align-items: flex-start;
             margin: 0;
-            padding-left:6% ;
+            padding-left:5% ;
 
-            /* background-color: brown; */
         }
 
-            .mainTitle h1{
+            .mainTitleLotenet h1{
                 margin: 0;
             }
 
-
-            .mainTitle p{
+            .mainTitleLotenet p{
                 margin: 0;
             }
-
 
     .bannerPromotion{
         width: 90%;
@@ -743,9 +90,8 @@
         justify-content: center;
         align-items: flex-start;
         gap: 10%;
-        padding-left: 6%;
+        padding-left: 5%;
 
-        /* background-color: yellow; */
     }
 
     .bannerPromotion h4, button{
@@ -753,28 +99,26 @@
     }
 
     .bannerPromotion button{
-        width: 80%;
-        margin-top: 10px;
+        width: 75%;
     }
-
 
     .features{
         width: 100%;
-        height: 25%;
+        height: 30%;
 
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
 
-        padding-left: 6%;
-        gap: 4%;
+        padding-left: 5%;
+        gap: 20%;
 
 
     }
 
         .features .feature1{
-            width: 25%;
+            width: 100%;
 
             display: flex;
             flex-direction: column;
@@ -791,148 +135,219 @@
                 font-weight: 600;
             }
 
-            .feature1 p{
-                width: 100%;
-                font-size: 16px;
-            }
-
-
     .bannerContentSystem .GraphicContentSystem{
     width: 95%;
-    min-height: 60vh;
+    height: 30vh;
 
     display: flex;
 
     /* background image properties */
-    background-position:center;
-    background-size: auto 90%;
+    background-position:top;
+    background-size: auto 80%;
 
 
     }
 
-
-}
-/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/*++++++++ Extra small devices (phones, portrait) ++++++*/
 
 
+@media (max-width: 575.98px) and (min-height: 768px){ 
 
-/*+++++++++ Large devices (tablets, landscape) ++++++++++*/
-@media (min-width: 992px) and (max-width: 1199.98px) and (min-height: 600px) and (max-height: 1023.98px){ 
-.mainContent{
-    width: 100vw;
-    min-height: 120vh;
-    position: relative;
-    overflow: hidden;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+            .bannerContentSystem .textContentSystem{
+                gap: 6%;
+            }
 
-    margin-bottom: 10vh;
-}
-    .mainContent .bannerSystem{
-    /* background image properties */
-    background-position:right bottom;
-    background-size: auto 75%;
+            .mainTitleLotenet p{
+                width: 85%;
+            }
 
-    /* div properties */
-    width: 100%;
-    min-height: 140vh;
-    overflow: hidden;
+        .bannerPromotion button{
+            width: 80%;
+        }
 
-    position: absolute!important;
-    top: -45vh;
-    z-index: 1;
+        .features{
+            height: 25%;
 
-    }
-
-    .mainContent .bannerContentSystem{
-        width: 100%;
-        min-height: 100vh;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        z-index: 2;
-
-    }
-
-        .bannerContentSystem .textContentSystem{
-            height: 120vh;
-            width: 100%;
-
-            display: flex;
-            flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
 
         }
-
-        .textContentSystem .mainTitle{
-            width: 95%;
-            height: 40%;
-
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-
-            align-items: center;
-            margin: 0;
-            gap: 2%;
-            padding-left:0% ;
+                .feature1 h3{
+                    font-weight: 600;
+                }
 
 
-        }
-
-        .mainTitle h1{
-            width: 70%;
-            margin: 0;
-        }
-
-        .mainTitle p{
-            width: 70%;
-            margin-bottom: 0;
-        }
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
-    .bannerPromotion{
-        width: 95%;
-        height: 25%;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 10%;
-        padding-left: 14%;
+/*++++++++ Small devices (phones, landscape) +++++++++++ */
+  @media (min-width: 576px) and (max-width: 767.98px) and (min-height: 300px) and (max-height: 575.98px){ 
+    .mainContentLotenet{
+        min-height: 120vh;
 
     }
 
-        .bannerPromotion h4, button{
-            margin: 0;
+        .mainContentLotenet .bannerSystemLotenet{
+            /* background image properties */
+            background-size: auto 100%;
+
+        }
+    
+        .mainContentLotenet .bannerContentSystem{
+            flex-direction: row;
+            margin-top: 6vh;
+            align-items: center;
+
+        }
+    
+            .bannerContentSystem .textContentSystem{
+                height: auto;
+                width: 100%;
+
+                justify-content: flex-end;
+                align-items: flex-start;
+
+
+            }
+    
+            .textContentSystem .mainTitleLotenet{
+                height: auto;
+
+                padding-left:8% ;
+                margin-bottom: 8%;
+
+            }
+
+                .mainTitleLotenet h1{
+                    width: 70%;
+                }
+  
+
+        .bannerPromotion{
+            padding-left: 8%;
+            margin-bottom: 6%;
         }
 
+        .bannerPromotion button{
+            width: 80%;
+            margin-top: 20px;
+        }
+    
+
+        .features{
+            height: 35%;
+
+            justify-content: flex-start;
+            align-items:flex-end;
+
+            padding-left: 8%;
+            margin-top: 6%;
+            
+
+
+        }
+
+                .feature1 h3{
+                    font-weight: 600;
+                }
+
+                .subFeature{
+                    width: 100%;
+                    margin-bottom: 4vh;
+                }
+    
+    
+        .bannerContentSystem .GraphicContentSystem{
+        min-height: 140vh;
+
+        /* background image properties */
+        background-size: 90% auto;
+
+        }
+
+  }
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  
+
+
+/*++++++++ Medium devices (tablets, portrait) ++++++++++ */
+@media (min-width: 768px) and (max-width: 991.98px) and (min-height: 300px) and (max-height: 575.98px) { 
+.mainContentLotenet{
+    min-height: 140vh;
+    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+    .mainContentLotenet .bannerSystemLotenet{
+    /* background image properties */
+    background-size:  100% auto;
+
+    /* div properties */
+    min-height: 140vh;
+
+    z-index: 1;
+
+    }
+
+    .mainContentLotenet .bannerContentSystem{
+        min-height: 140vh;
+
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+
+        .bannerContentSystem .textContentSystem{
+            height: 140vh;
+            width: 100%;
+
+            justify-content: flex-start;
+            gap:2%;
+
+        }
+
+        .textContentSystem .mainTitleLotenet{
+            width: 95%;
+            height: 40%;
+            gap: 2%;
+            padding-left:8% ;
+
+        }
+
+        .mainTitleLotenet p{
+            width: 95%;
+        }
+
+    .bannerPromotion{
+        width: 95%;
+        height: 30%;
+
+        padding-left: 8%;
+
+    }
 
         .bannerPromotion button{
             width: 70%;
-            height: 5vh;
+            height: 8vh;
             padding: 0;
         }
 
 
     .features{
-        width: 100%;
         height: 25%;
 
-        display: flex;
+        flex-direction: row;
         justify-content: flex-start;
-        align-items:flex-start;
-
-        padding-left: 14%;
+        align-items: flex-start;
+        gap: 8%;
         margin: 0;
-        gap: 4%;
+
+
 
     }
 
@@ -943,9 +358,191 @@
 
         }
 
-            .feature1 h3,p{
-                margin: 0;
+            .feature1 h3{
+                font-weight: 600;
             }
+
+
+
+    .bannerContentSystem .GraphicContentSystem{
+    width: 90%;
+    min-height: 110vh;
+
+    /* background image properties */
+    background-position:top right;
+    background-size: auto 90%;
+
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) and (min-height: 576px){ 
+.mainContentLotenet{
+    min-height: 120vh;
+
+}
+    .mainContentLotenet .bannerSystemLotenet{
+    /* background image properties */
+    background-position:right bottom;
+    background-size: auto 60%;
+
+    }
+
+    .mainContentLotenet .bannerContentSystem{
+        min-height: 120vh;
+    }
+
+        .bannerContentSystem .textContentSystem{
+            height: 60vh;
+            width: 100%;
+
+            justify-content: flex-end;
+            align-items: flex-start;
+            gap: 12%;
+    
+        }
+
+
+    .bannerPromotion button{
+        width: 60%;
+        margin-top: 10px;
+    }
+
+
+    .features{
+        height: 25%;
+
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 4%;
+
+
+    }
+
+        .features .feature1{
+            width: 40%;
+
+
+        }
+
+            .feature1 p{
+                width: 100%;
+            }
+
+
+    .bannerContentSystem .GraphicContentSystem{
+    min-height: 60vh;
+
+    /* background image properties */
+    background-position:center;
+    background-size: auto 90%;
+
+
+    }
+
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/*+++++++++ Large devices (tablets, landscape) ++++++++++*/
+@media (min-width: 992px) and (max-width: 1199.98px) and (min-height: 600px) and (max-height: 1023.98px){ 
+.mainContentLotenet{
+    min-height: 100vh;
+    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+    .mainContentLotenet .bannerSystemLotenet{
+    /* background image properties */
+    background-size: 100% auto ;
+    background-position: top right;
+
+    /* div properties */
+    min-height: 140vh;
+
+    z-index: 1;
+
+    }
+
+    .mainContentLotenet .bannerContentSystem{
+        min-height: 100vh;
+
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+
+        .bannerContentSystem .textContentSystem{
+            width: 100%;
+            justify-content: flex-start;
+            gap: 4%;
+
+        }
+
+        .textContentSystem .mainTitleLotenet{
+            width: 95%;
+            height: 40%;
+
+            align-items: center;
+            gap: 2%;
+            padding-left:0% ;
+            margin-bottom: 0;
+
+        }
+
+        .mainTitleLotenet h1{
+            width: 70%;
+        }
+
+        .mainTitleLotenet p{
+            width: 70%;
+            margin-bottom: 0;
+        }
+
+
+    .bannerPromotion{
+        width: 95%;
+        height: 25%;
+
+        padding-left: 14%;
+
+    }
+
+        .bannerPromotion h4, button{
+            margin: 0;
+        }
+
+
+        .bannerPromotion button{
+            width: 60%;
+            height: 5vh;
+            padding: 0;
+        }
+
+
+    .features{
+        height: 25%;
+
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items:flex-start;
+
+        padding-left: 14%;
+        margin: 0;
+        gap: 4%;
+
+    }
+
+        .features .feature1{
+            justify-content: center;
+
+        }
 
             .feature1 h3{
                 font-weight: 600;
@@ -953,7 +550,6 @@
 
             .feature1 p{
                 width: 100%;
-                font-size: 16px;
             }
 
 
@@ -965,7 +561,7 @@
 
 
     /* background image properties */
-    background-position:center right;
+    background-position:top right;
     background-size: auto 80%;
 
 
@@ -974,40 +570,25 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) and (min-height: 1024px){ 
-    .mainContent{
-        width: 100vw;
-        min-height: 120vh;
-        position: relative;
-        overflow: hidden;
-        
-        display: flex;
-        flex-direction: row;
+    .mainContentLotenet{
+        min-height: 140vh;
+
         justify-content: flex-start;
         align-items: flex-start;
     
     }
-        .mainContent .bannerSystem{
-        /* background image properties */
-        background-position:right bottom;
-        background-size: auto 60%;
-    
+        .mainContentLotenet .bannerSystemLotenet{
         /* div properties */
-        width: 100%;
-        min-height: 200vh;
-        overflow: hidden;
-    
-        position: absolute!important;
-        top: -45vh;
+        min-height: 140vh;
+
+
         z-index: 1;
     
         }
     
-        .mainContent .bannerContentSystem{
-            width: 100%;
+        .mainContentLotenet .bannerContentSystem{
             min-height: 120vh;
     
-            display: flex;
-            flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
             z-index: 2;
@@ -1018,35 +599,27 @@
                 height: 75vh;
                 width: 100vw;
     
-                display: flex;
-                flex-direction: column;
                 justify-content: flex-start;
-                align-items: flex-start;
+                gap: 2%;
     
             }
     
-            .textContentSystem .mainTitle{
+            .textContentSystem .mainTitleLotenet{
                 width: 95%;
                 height: 30%;
     
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-    
-                align-items: flex-start;
-                margin: 0;
                 gap: 4%;
-                padding-left:14% ;
-                margin-bottom: 3%;
+                padding-left:12% ;
+                margin-bottom: 0;
     
             }
     
-            .mainTitle h1{
+            .mainTitleLotenet h1{
                 width: 70%;
                 margin-bottom: 0;
             }
     
-            .mainTitle p{
+            .mainTitleLotenet p{
                 width: 95%;
                 margin-bottom: 0;
             }
@@ -1056,74 +629,52 @@
             width: 95%;
             height: 25%;
     
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
             gap: 8%;
-            padding-left: 14%;
+            padding-left: 12%;
     
         }
-    
-            .bannerPromotion h4, button{
-                margin: 0;
-            }
-    
     
             .bannerPromotion button{
                 width: 70%;
                 height: 5vh;
+                border-radius: 40px;
                 padding: 0;
             }
     
     
         .features{
-            width: 100%;
             height: 25%;
     
-            display: flex;
+            flex-direction: row;
             justify-content: flex-start;
-            align-items:flex-start;
+            align-items:center;
     
-            padding-left: 14%;
+            padding-left: 12%;
             margin-top: 6%;
             margin: 0;
+            gap: 0;
     
         }
     
             .features .feature1{
-                display: flex;
-                flex-direction: column;
                 justify-content: center;
     
             }
     
-                .feature1 h3,p{
-                    margin: 0;
-                }
-    
-                .feature1 h3{
-                    font-weight: 600;
-                }
-    
                 .feature1 p{
                     width: 100%;
-                    font-size: 16px;
                 }
     
     
         .bannerContentSystem .GraphicContentSystem{
-        width: 90%;
-        min-height: 90vh;
-    
-        display: flex;
-        margin-left: 5%;
-    
-    
-        /* background image properties */
-        background-position:top center;
-        background-size: auto 80%;
-    
+            width: 90%;
+            min-height: 90vh;
+        
+            margin-left: 5%;
+        
+        
+            /* background image properties */
+            background-position:top center;
     
         }
     
@@ -1135,47 +686,28 @@
 /* Extra large devices (small desktops and larger tablets) */
 
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
-    .mainContent{
-        width: 100vw;
-        min-height: 120vh;
-        position: relative;
-        overflow: hidden;
+    
+    .mainContentLotenet{
+        min-height: 110vh;
         
-        display: flex;
-        flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
-    
-        margin-bottom: 10vh;
-    
     }
-        .mainContent .bannerSystem{
-        /* background image properties */
-        background-position:right top;
-        background-size: auto 85%;
-    
-        /* div properties */
-        width: 100%;
-        min-height: 80%;
-        overflow: hidden;
-    
-        position: absolute;
-        top: 0;
-        z-index: 1;
-        margin-top: 0;
-    
+        .mainContentLotenet .bannerSystemLotenet{
+            /* background image properties */
+            background-position:right top;
+            background-size: 100% auto;
+        
+            /* div properties */
+            min-height: 80%;
+        
         }
     
-        .mainContent .bannerContentSystem{
-            width: 100%;
+        .mainContentLotenet .bannerContentSystem{
             min-height: 110vh;
     
-            display: flex;
             flex-direction: row;
             justify-content: flex-start;
             align-items: flex-start;
-            z-index: 2;
-    
     
         }
     
@@ -1183,35 +715,27 @@
                 height: 100vh;
                 width: 100%;
     
-                display: flex;
-                flex-direction: column;
                 justify-content: flex-end;
-                align-items: flex-start;
+                gap: 0%;
     
             }
     
-            .textContentSystem .mainTitle{
+            .textContentSystem .mainTitleLotenet{
                 width: 95%;
-                height: 40%;
+                height: 35%;
     
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-    
-                align-items: flex-start;
-                margin: 0;
                 gap: 2%;
-                padding-left:8% ;
+                padding-left:10% ;
 
     
             }
     
-            .mainTitle h1{
+            .mainTitleLotenet h1{
                 width: 75%;
                 margin-bottom: 0;
             }
     
-            .mainTitle p{
+            .mainTitleLotenet p{
                 width: 100%;
                 margin-bottom: 0;
             }
@@ -1219,55 +743,37 @@
     
         .bannerPromotion{
             width: 95%;
-            height: 20%;
     
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
             gap: 0%;
-            padding-left: 8%;
+            padding-left: 10%;
             margin-top: 4%;
 
-    
         }
-
-            .bannerPromotion h4, button{
-                margin: 0;
-            }
-    
     
             .bannerPromotion button{
-                width: 75%;
+                width: 65%;
                 padding: 6px;
+                margin-top: 3vh;
 
     
             }
     
-    
         .features{
-            width: 100%;
             height: 25%;
     
-            display: flex;
+            flex-direction: row;
             justify-content: flex-start;
             align-items: flex-start;
     
-            padding-left: 8%;
+            padding-left: 10%;
             margin-top: 10%;
     
         }
     
             .features .feature1{
-                display: flex;
-                flex-direction: column;
                 justify-content: center;
     
             }
-    
-                .feature1 h3,p{
-                    margin: 0;
-                }
     
                 .feature1 h3{
                     font-weight: 600;
@@ -1275,7 +781,6 @@
     
                 .feature1 p{
                     width: 100%;
-                    font-size: 16px;
                 }
     
     
@@ -1303,47 +808,28 @@
 /*++++++ XX-Large devices (large desktops and up) +++++++*/
 @media (min-width: 1400px) { 
 
-    .mainContent{
-        width: 100vw;
-        min-height: 120vh;
-        position: relative;
-        overflow: hidden;
-        
-        display: flex;
-        flex-direction: column;
+    .mainContentLotenet{
+        min-height: 140vh;    
         justify-content: flex-start;
-        align-items: center;
-    
-        margin-bottom: 10vh;
-    
+
     }
-        .mainContent .bannerSystem{
+        .mainContentLotenet .bannerSystemLotenet{
         /* background image properties */
         background-position:right top;
-        background-size: auto 100%;
+        background-size: 100% auto;
     
         /* div properties */
-        width: 100%;
         min-height: 80%;
-        overflow: hidden;
-    
-        position: absolute;
-        top: 0;
-        z-index: 1;
         margin-top: 0;
     
         }
     
-        .mainContent .bannerContentSystem{
-            width: 100%;
+        .mainContentLotenet .bannerContentSystem{
             min-height: 110vh;
     
-            display: flex;
             flex-direction: row;
             justify-content: flex-start;
             align-items: flex-start;
-            z-index: 2;
-    
     
         }
     
@@ -1351,35 +837,24 @@
                 height: 100vh;
                 width: 100%;
     
-                display: flex;
-                flex-direction: column;
                 justify-content: flex-end;
-                align-items: flex-start;
-    
+                gap: 2%;
             }
     
-            .textContentSystem .mainTitle{
+            .textContentSystem .mainTitleLotenet{
                 width: 95%;
                 height: 40%;
     
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
-    
-                align-items: flex-start;
-                margin: 0;
                 gap: 2%;
                 padding-left:10% ;
-
-    
             }
     
-            .mainTitle h1{
+            .mainTitleLotenet h1{
                 width: 100%;
                 margin-bottom: 0;
             }
     
-            .mainTitle p{
+            .mainTitleLotenet p{
                 width: 100%;
                 margin-bottom: 0;
             }
@@ -1389,53 +864,40 @@
             width: 95%;
             height: 20%;
     
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
             gap: 0%;
             padding-left: 10%;
             margin-top: 4%;
-
     
         }
-
-            .bannerPromotion h4, button{
-                margin: 0;
-            }
     
     
             .bannerPromotion button{
-                width: 75%;
                 padding: 6px;
-
+                height: 8vh;
+                border-radius: 30px;
+                margin: 0;
+                margin-top: 3vh;
     
             }
     
     
         .features{
-            width: 100%;
             height: 25%;
     
-            display: flex;
+            flex-direction: row;
             justify-content: flex-start;
-            align-items: flex-start;
+            align-items: center;
     
+            gap: 1%;
             padding-left: 10%;
             margin-top: 10%;
     
         }
     
             .features .feature1{
-                display: flex;
-                flex-direction: column;
                 justify-content: center;
     
             }
-    
-                .feature1 h3,p{
-                    margin: 0;
-                }
     
                 .feature1 h3{
                     font-weight: 600;
@@ -1443,20 +905,16 @@
     
                 .feature1 p{
                     width: 100%;
-                    font-size: 16px;
                 }
     
     
         .bannerContentSystem .GraphicContentSystem{
         width: 90%;
-        min-height: 90vh;
-    
-        display: flex;
-    
+        min-height: 120vh;
     
         /* background image properties */
-        background-position:top right;
-        background-size: auto 85%;
+        background-position:top ;
+        background-size: 90% auto;
     
     
         }

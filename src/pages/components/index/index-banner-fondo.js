@@ -19,7 +19,6 @@ export default function HomeBanner() {
 
     <div className="mainContainer">
 
-        
         <div className="imageBackground"
             style={{ 
                 backgroundImage: `url(${indexBackgroundImage})`, 

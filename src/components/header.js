@@ -93,7 +93,7 @@ const Header = ({ siteTitle }) => {
 
       <div className="mobile-menu dropdown">
         <div className="dropdown-toggle">
-          <StaticImage alt="menu" src="../images/menuIcon.svg" className="menuIcon" />
+          <StaticImage alt="menu" src="../images/iconos/menuIcon.svg" className="menuIcon" />
         </div>
         <div className="dropdown-menu">
           <div className="linksDropdownMenu">
@@ -172,25 +172,25 @@ const Header = ({ siteTitle }) => {
             <div className="socialMediaLogos">
               <a href="https://www.instagram.com/orkapi_srl?igsh=YzUzcmRsazBmMmtr">
                 <div className="socialMediaLogo">
-                  <StaticImage alt="instagramLogo" src="../images/instagramLogo.svg" />
+                  <StaticImage alt="instagramLogo" src="../images/redes-sociales/instagramLogo.svg" />
                 </div>
               </a>
 
               <a href="https://www.facebook.com/share/64r1nJJNFnPjzppz/?mibextid=LQQJ4d">
                 <div className="socialMediaLogo">
-                  <StaticImage alt="facebookLogo" src="../images/facebookLogo.svg" />
+                  <StaticImage alt="facebookLogo" src="../images/redes-sociales/facebookLogo.svg" />
                 </div>
               </a>
 
               <a href="https://x.com/i/flow/login?redirect_after_login=%2Forkapitech">
                 <div className="socialMediaLogo">
-                  <StaticImage alt="twitterLogo" src="../images/twitterLogo.svg" />
+                  <StaticImage alt="twitterLogo" src="../images/redes-sociales/twitterLogo.svg" />
                 </div>
               </a>
 
               <a href="https://do.linkedin.com/company/orkapi-technology">
                 <div className="socialMediaLogo">
-                  <StaticImage alt="linkedinLogo" src="../images/linkedInLogo.svg" />
+                  <StaticImage alt="linkedinLogo" src="../images/redes-sociales/linkedinLogo.svg" />
                 </div>
               </a>
               

@@ -13,8 +13,8 @@ const contactUsClick = (event) => {
 
 export default function BannerLotenet(){
     return (
-        <div className="mainContent">
-            <div className="bannerSystem" style={{ 
+        <div className="mainContentLotenet">
+            <div className="bannerSystemLotenet" style={{ 
                     backgroundImage: `url(${systemBackgroundImage})`, 
                     backgroundRepeat: 'no-repeat',
                     height: '100vh' 
@@ -26,8 +26,8 @@ export default function BannerLotenet(){
             <div className="bannerContentSystem">
                 <div className="textContentSystem">
                     
-                    <div className="mainTitle">
-                        <h1 className="title">Conoce Lotenet Soft</h1>
+                    <div className="mainTitleLotenet">
+                        <h1>Conoce Lotenet Soft</h1>
                         <p>Nuestro sistema de gestión para empresas de lotería.</p>
                     </div>
 
@@ -38,13 +38,13 @@ export default function BannerLotenet(){
 
                     <div className="features">
                         <div className="feature1">
-                            <h3>9 MILLONES <span className="darkOrange">+</span></h3>
+                            <h3 className="feature">9 MILLONES <span className="darkOrange">+</span></h3>
                             <p className="subFeature">de transaciones diarias</p>
                         </div>
 
                         <div className="feature1">
-                            <h3>24<span className="orange">hr</span></h3>
-                            <p>de servicio técnico</p>
+                            <h3 className="feature">24<span className="orange">hr</span></h3>
+                            <p className="subFeature">de servicio técnico</p>
                         </div> 
                     </div>
                 </div>

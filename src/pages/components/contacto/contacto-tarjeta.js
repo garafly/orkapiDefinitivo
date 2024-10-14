@@ -1,5 +1,6 @@
 import React from 'react';
 import './contacto-tarjeta.css';
+
 import backgroundImage from '../../../images/fondos/backgroundContactUs.jpg'
 
 export default function TarjetaContacto() {

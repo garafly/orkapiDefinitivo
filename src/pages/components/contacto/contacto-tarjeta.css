@@ -444,6 +444,7 @@
     input{
         height: 8vh;
         width: 90%;
+        margin-left: 2%;
 
         border: 1px solid var(--neutral-color-grey-200);
         border-radius: 6px;

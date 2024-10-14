@@ -8,15 +8,15 @@ export default function LotenetCaracteristicas(){
     return (
 
     <div className="characteristics">
-        <div className="sectionIntro">
-            <div className="sectionText">
+        <div className="sectionIntroC">
+            <div className="sectionTextC">
                 <h3>Diseñado para objetivos comerciales únicos</h3>
                 <h6>Nos hemos consolidado con la plataforma más estable y operativa del mercado, dando la información en tiempo real justo cuando la requieres.</h6>
             </div>
         </div>
 
-        <div className="cardSection">
-            <div className="row">
+        <div className="cardSectionC">
+            <div className="rowC">
                 <div className="card1">
                     <p className="emphasizedB">Juegos instantáneos</p>
                     <div className="cardSubtext">
@@ -39,7 +39,7 @@ export default function LotenetCaracteristicas(){
                 </div>
             </div>
 
-            <div className="row">
+            <div className="rowC">
                 <div className="card1">
                     <p className="emphasizedB">Gestión Humana</p>
                     <div className="cardSubtext">
