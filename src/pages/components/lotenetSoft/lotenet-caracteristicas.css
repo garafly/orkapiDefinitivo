@@ -38,11 +38,12 @@
             }
     
             .sectionTextC h6{
-                width: 96%;
+                width: 90%;
                 font-weight: 300;
                 margin: 0;
                 font-size: 18px;
                 text-align: start;
+                line-height: 4vh;
             }
 
         .cardSectionC{

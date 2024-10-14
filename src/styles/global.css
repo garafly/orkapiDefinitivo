@@ -113,6 +113,11 @@
       color:var(--neutral-color-grey-700)
     }
 
+    a:hover{
+      color: var(--primary-color-yellow-900);
+      font-weight: 600;
+   }
+
     a:visited { 
       text-decoration: none; 
       color: var(--neutral-color-grey-600)!important;

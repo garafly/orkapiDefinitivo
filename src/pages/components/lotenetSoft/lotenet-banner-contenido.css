@@ -370,7 +370,7 @@
 
     /* background image properties */
     background-position:top right;
-    background-size: auto 90%;
+    background-size: 70% auto;
 
 
     }
@@ -792,8 +792,8 @@
     
     
         /* background image properties */
-        background-position:top right;
-        background-size: auto 85%;
+        background-position:top ;
+        background-size: auto 75%;
     
     
         }
@@ -914,7 +914,7 @@
     
         /* background image properties */
         background-position:top ;
-        background-size: 90% auto;
+        background-size: 80% auto;
     
     
         }
