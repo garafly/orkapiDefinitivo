@@ -911,10 +911,12 @@
         .bannerContentSystem .GraphicContentSystem{
         width: 90%;
         min-height: 120vh;
+
+        margin-top: 4vh;
     
         /* background image properties */
         background-position:top ;
-        background-size: 80% auto;
+        background-size: 70% auto;
     
     
         }
