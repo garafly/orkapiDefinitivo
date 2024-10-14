@@ -916,7 +916,7 @@
     
         /* background image properties */
         background-position:top ;
-        background-size: 70% auto;
+        background-size: 70% auto!important;
     
     
         }
