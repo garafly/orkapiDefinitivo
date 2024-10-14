@@ -78,7 +78,7 @@ const Header = ({ siteTitle }) => {
     <header>
       <Link to="/">
       <div className="logo">
-        <StaticImage alt="logo orkapi" src="../images/orkapi-logo.svg" className="logo-image" />
+        <StaticImage alt="logo orkapi" src="../images/logos/orkapi-logo.svg" className="logo-image" />
       </div>
       </Link>
 
