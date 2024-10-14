@@ -1268,10 +1268,9 @@
     
                .sectionA .cardContainer{
                     width: 100%;
-                    height: 55vh;
+                    height: 50vh;
                     
                     perspective: 1000px;
-
                 }
     
                   
@@ -1290,7 +1289,7 @@
                   .locationOfficeDR,
                   .locationOfficePanama {
                     width: 95%;
-                    height: 100%;
+                    height: 90%;
                     
                     position: absolute;
                     display: flex;
@@ -1298,7 +1297,7 @@
                     justify-content: flex-end;
                     align-items: flex-start;
     
-                    margin-top: 1vh;
+                    margin-top: 10vh;
                     backface-visibility: hidden;
 
     
@@ -1326,7 +1325,8 @@
                   }
     
                   .cardContainer p{
-                    font-size: 18px;
+                    width: 80%;
+                    font-size: 20px!important;
                     margin-left: 4%;
                   }
                   
@@ -1334,10 +1334,10 @@
                         display: flex;
                         position: absolute;
                         width: 100%;
-                        justify-content: center;
+                        justify-content: flex-start;
                         align-items: flex-start;
                         gap: 4%;
-                        top: 0vh;
+                        top: 1vh;
                         left: 0vw;
 
                     }
@@ -1455,7 +1455,7 @@
     
     
         footer .copyright{
-            height: 20%;
+            height: 10%;
             width: 100vw;
     
             display: flex;

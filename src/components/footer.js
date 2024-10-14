@@ -56,14 +56,14 @@ function Footer() {
             <div className={`flipCard ${isFlipped ? 'flipped' : ''}`}>
               <div className="locationOfficeDR">
                 {/* <StaticImage alt="dominicanRepublicMap" src="../images/repDom.svg" className="officeLocationMaps" /> */}
-                <div className="mapa" style={{backgroundImage: `url(${domMap})`,backgroundRepeat: 'no-repeat',height: '15vh',backgroundSize:'70% auto', backgroundPosition:'center'}}></div> 
+                <div className="mapa" style={{backgroundImage: `url(${domMap})`,backgroundRepeat: 'no-repeat',height: '15vh',backgroundSize:'45% auto', backgroundPosition:'center'}}></div> 
                 <p>García Godoy #81 Plaza Estela, Suite 210 La Vega, República Dominicana.</p>
                 <p>Tel: 809-573-8786</p>
               </div>
 
               <div className="locationOfficePanama">
                 {/* <StaticImage alt="panamaMap" src="../images/panama.svg" className="officeLocationMaps" /> */}
-                <div className="mapa" style={{backgroundImage: `url(${panMap})`,backgroundRepeat: 'no-repeat',height: '15vh',backgroundSize:'70% auto', backgroundPosition:'center'}}></div> 
+                <div className="mapa" style={{backgroundImage: `url(${panMap})`,backgroundRepeat: 'no-repeat',height: '15vh',backgroundSize:'45% auto', backgroundPosition:'center'}}></div> 
                 <p>Building 3855, Parque Internacional de Negocios, Panamá, Provincia de Panamá, Panamá</p>
                 <p>Tel: +507 838-8989</p>
               </div>
