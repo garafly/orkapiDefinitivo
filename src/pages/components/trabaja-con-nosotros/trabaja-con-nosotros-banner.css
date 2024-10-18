@@ -1,25 +1,35 @@
 
     .bannerHeader{
         width: 100vw;
-        height: 75vh;
+        height: 90vh;
         margin-bottom: 0px;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
     
         } 
 
         .bannerHeader .textContent{
-            height: 50vh;
+
+            height: 60vh;
             padding-top: 20px;
-            align-items: flex-end;
+
+            margin-top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
         }
 
             .textContent .text{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                width: 100%;
 
     
             }
@@ -36,59 +46,54 @@
     
             .text p{
                 width:95%;
-                line-height: 5vh;
+                line-height: 4vh;
             }
     
+
         .graphicContent{
             display:none;
-            width: 0;
-            height: 0;
 
         }
 
-        .graphicContent .puzzlePiece{
-            display:none;
+        .puzzlePiece{
+            position: absolute;
+            width: 100vw;
+            display: flex;
+
+            bottom: -20vh;
+
+            background-position: center;
+            background-size: 60% auto;
 
         }
+
     
 
 
 @media (max-width: 575.98px) and (min-height: 768px){
     .bannerHeader{
-        height: 70vh;
-        margin-bottom: 0px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    min-height: 90vh;
+    justify-content: flex-start;
     
     }
     
     
     .textContent{
         height: 50vh;
-        width: 95%;
         padding-top: 20px;
-        align-items: flex-end;
+
+        align-items: center;
     }
 
 
         .textContent .text{
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            width: 100%;
+            width: 90%;
 
 
-        }
-
-        h1,p{
-            margin-left: 0px;
 
         }
 
         .text h1{
-            width: 100%;
             line-height: 5vh;
             margin-bottom: 8%;
 
@@ -96,7 +101,7 @@
 
         .text p{
             width:95%;
-            line-height: 4vh;
+            line-height: 3vh;
         }
     
 
@@ -107,10 +112,12 @@
         height: 0;
     }
 
-        .graphicContent .puzzlePiece{
-            display:none;
+    .puzzlePiece{
+        background-position: center;
+        background-size: 65% auto;
+        bottom: -14vh;
 
-        }
+    }
     
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -121,57 +128,35 @@
 /*++++++++ Small devices (phones, landscape) +++++++++++ */
 @media (min-width: 576px) and (max-width: 767.98px) and (min-height: 300px) and (max-height: 575.98px){ 
     .bannerHeader{
-        min-height: 100vh;
-        margin-bottom: 0px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        min-height: 140vh;
+        justify-content: flex-start;
     
     }
 
     .textContent{
-        height: 50vh;
-        width: 90%;
-        padding-top: 20px;
-        align-items: flex-end;
+        height: 90vh;
+        justify-content: center;
+        margin-top: 0;
     }
 
-        .textContent .text{
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            width: 100%;
+    .textContent .text{
+        justify-content: center;
+    }
 
-
-        }
-
-        h1,p{
-            margin-left: 0px;
-
-        }
-
-        .text h1{
-            width: 100%;
-        }
 
         .text p{
-            width:95%;
-            line-height: 8vh;
+            line-height: 7vh;
         }
 
     
     
         .graphicContent{
-            width: 100%;
-            height: 100%;
-
-            background-position: top center;
-            background-size: auto 80%;
+            display: none;
         }
 
-        .graphicContent .puzzlePiece{
-            display:none;
+        .puzzlePiece{
+            bottom:-55vh;
+            background-size: 45% auto;
 
         }
     
@@ -186,41 +171,21 @@
 @media (min-width: 768px) and (max-width: 991.98px) and (min-height: 300px) and (max-height: 575.98px) { 
 
     .bannerHeader{
-        min-height: 120vh;
-        margin-bottom: 0px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        min-height: 200vh;
     }
     
-        .textContent{
-            height: 50vh;
-            width: 100%;
-            padding-top: 20px;
-            justify-content: center;
-            align-items: flex-end;
-        } 
+    .bannerHeader .textContent{
+        height: 80vh;
+        
+    }
 
         .text{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            width: 100%;
-            height: 80%;
+            width: 90%;
+            height: 100%;
         }
 
-
-        h1,p{
-            margin-left: 0px;
-
-        }
-
-        .text h1{
-            width: 100%;
-        }
 
         .text p{
             width:85%;
@@ -232,87 +197,72 @@
         .graphicContent{
             display: flex;
             width: 100%;
-            height: 100%;
+            height: 230vh;
 
-            background-position: top center;
+            background-position: bottom center;
             background-size: 70% auto;
         }
 
-        .graphicContent .puzzlePiece{
-            display:none;
+        .puzzlePiece{
+            position: absolute;
+            width: 100vw;
+            display: flex;
+
+            bottom: -58vh;
+
+            background-position: center;
+            background-size: 30% auto;
 
         }
+
     
     
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) and (min-height: 576px){ 
-    .bannerHeader{
-        height: 70vh;
-        margin-bottom: 0px;
+   .bannerHeader{
+    height: 110vh;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+   }
+
+   .bannerHeader .textContent{
+    height: 80vh;
+    margin-top: 0;
+    width: 100%;
+    align-items: center;
+
+   }
+
+   .textContent .text{
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
     }
+
+    .text h1{
+        width: 80%;
+
+    }
+
+   .graphicContent{
     
-        .textContent{
-            height: 50vh;
-            width: 100%;
-            padding-top: 20px;
-            justify-content: center;
-            align-items: flex-end;
-        } 
+    display: flex;
+    width: 100%;
 
-        .text{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            width: 100%;
-            height: 80%;
-        }
+    background-position: center;
+    background-size: 90% auto;
+    }
 
+    .puzzlePiece{
+        bottom: -8vh;
+        background-size: 40% auto;
+    }
 
-        h1,p{
-            margin-left: 0px;
-
-        }
-
-        .text h1{
-            width: 100%;
-        }
-
-        .text p{
-            width:85%;
-            line-height: 4vh;
-        }
-    
-
-    
-        .graphicContent{
-            display: flex;
-            width: 100%;
-            height: 100%;
-
-            background-position: top center;
-        }
-
-        .graphicContent .puzzlePiece{
-            display: flex;
-            width: 50vw;
-            height: 30vh;
-
-            position: absolute;
-            bottom: 5%;
-            left: 25%;
-
-            background-position: top center;
-            background-size: auto 34%;
-
-
-        }
     
 }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -327,72 +277,38 @@
 @media (min-width: 992px) and (max-width: 1199.98px) and (min-height: 600px) and (max-height: 1023.98px){ 
 
     .bannerHeader{
-        height: 120vh;
-        margin-bottom: 0px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        height: 140vh;
+        justify-content: flex-start;
     }
-    
-        .textContent{
-            height: 90vh;
-            width: 100%;
-            padding-top: 20px;
-            justify-content: center;
-            align-items: flex-end;
-        } 
 
-        .text{
-            display: flex;
-            flex-direction: column;
+        .bannerHeader .textContent{
+            height: 80vh;
+            width: 100vw;
+            margin-top:0 ;
             justify-content: center;
             align-items: center;
-            text-align: center;
-            width: 100%;
-            height: 80%;
         }
 
-
-        h1,p{
-            margin-left: 0px;
-
-        }
-
-        .text h1{
-            width: 100%;
-            line-height: 10vh;
-        }
-
-        .text p{
-            width:70%;
-            line-height: 4vh;
+        .textContent .text{
+            width: 80%;
         }
     
-    
+
         .graphicContent{
             display: flex;
             width: 100%;
             height: 100%;
 
-            background-position: top center;
-            background-size: auto 95%;
+            background-position:center;
+            background-size: 70% auto;
         }
 
-        .graphicContent .puzzlePiece{
-            display: flex;
-            width: 50vw;
-            height: 30vh;
-
-            position: absolute;
-            bottom: -4%;
-            left: 25%;
-
-            background-position: top center;
-            background-size: 50% auto;
-
-
+        .puzzlePiece{
+            bottom: -16vh;
+            background-size: 25% auto;
         }
+
+
 
 
 
@@ -451,21 +367,14 @@
             width: 100%;
             height: 100%;
 
-            background-position: top center;
+            background-position: center;
             background-size: 100% auto;
         }
 
-        .graphicContent .puzzlePiece{
-            display: flex;
-            width: 50vw;
-            height: 30vh;
-
-            position: absolute;
-            bottom: 10%;
-            left: 25%;
-
+       .puzzlePiece{
+            bottom: -42vh;
             background-position: top center;
-            background-size: auto 34%;
+            background-size: auto 24%;
 
 
         }
@@ -479,72 +388,35 @@
 /* Extra large devices (small desktops and larger tablets) */
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
     .bannerHeader{
-        height: 100vh;
-        margin-bottom: 0px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: 140vh;
+        justify-content: flex-start;
     }
-    
-        .textContent{
-            height: 50vh;
-            width: 100%;
-            padding-top: 20px;
-            justify-content: center;
-            align-items: flex-end;
-        } 
 
-        .text{
-            display: flex;
-            flex-direction: column;
+        .bannerHeader .textContent{
+            height: 80vh;
+            width: 100vw;
+            margin-top:0 ;
             justify-content: center;
             align-items: center;
-            text-align: center;
-            width: 100%;
-            height: 80%;
         }
 
-
-        h1,p{
-            margin-left: 0px;
-
-        }
-
-        .text h1{
-            width: 100%;
-            line-height: 10vh;
-            margin-top: 10vh;
-        }
-
-        .text p{
-            width:70%;
-            line-height: 3vh;
+        .textContent .text{
+            width: 80%;
         }
     
-    
+
         .graphicContent{
             display: flex;
             width: 100%;
             height: 100%;
 
-            background-position: center;
-            background-size: 70% auto ;
+            background-position:center;
+            background-size: 70% auto;
         }
 
-        .graphicContent .puzzlePiece{
-            display: flex;
-            width: 50vw;
-            height: 30vh;
-
-            position: absolute;
-            bottom: 10%;
-            left: 25%;
-
-            background-position: top center;
-            background-size: auto 50%;
-
+        .puzzlePiece{
+            bottom: -16vh;
+            background-size: 25% auto;
         }
 
 }
@@ -558,71 +430,42 @@
 /*++++++ XX-Large devices (large desktops and up) +++++++*/
 @media (min-width: 1400px) {
     .bannerHeader{
-        height: 130vh;
-        margin-bottom: 0px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: 140vh;
+        justify-content: flex-start;
     }
-    
-        .textContent{
-            height: 100vh;
-            width: 100%;
-            padding-top: 20px;
-            justify-content: center;
-            align-items: flex-end;
-        } 
 
-        .text{
-            display: flex;
-            flex-direction: column;
+        .bannerHeader .textContent{
+            height: 80vh;
+            width: 100vw;
+            margin-top:0 ;
             justify-content: center;
             align-items: center;
-            text-align: center;
-            width: 100%;
-            height: 80%;
+        }
+
+        .textContent .text{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
 
         }
 
+        .textContent .text p{
+            width: 70%;
 
-        h1,p{
-            margin-left: 0px;
-
-        }
-
-        .text h1{
-            width: 100%;
-            line-height: 10vh;
-        }
-
-        .text p{
-            width:70%;
-            line-height: 3vh;
         }
     
-    
+
         .graphicContent{
             display: flex;
             width: 100%;
             height: 100%;
 
-            background-position: center;
-            background-size: 74% auto;
+            background-position:center;
+            background-size: 60% auto;
         }
 
-        .graphicContent .puzzlePiece{
-            display: flex;
-            width: 50vw;
-            height: 40vh;
-
-            position: absolute;
-            bottom: 0%;
-            left: 25%;
-
-            background-position: top center;
-            background-size: 50% auto;
-
+        .puzzlePiece{
+            bottom: -16vh;
+            background-size: 25% auto;
         }
 }

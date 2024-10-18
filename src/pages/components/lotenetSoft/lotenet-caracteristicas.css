@@ -167,6 +167,8 @@
         
                 .sectionTextC h6{
                     width: 98%;
+                    line-height: 6vh;
+                    font-size: 17px;
                 }
     
                 .cardSectionC .rowC{
@@ -196,7 +198,9 @@
 
 /*++++++++ Medium devices (tablets, portrait) ++++++++++ */
 @media (min-width: 768px) and (max-width: 991.98px) and (min-height: 300px) and (max-height: 575.98px) { 
-    
+    .characteristics{
+        align-items: center;
+    }
         .characteristics .sectionIntroC{
             min-height: 60vh;
             text-align: center;
@@ -210,16 +214,25 @@
     
                 .sectionTextC h6{
                     width: 90%;
+                    line-height: 6vh;
                 }
+
+        .characteristics .cardSectionC {
+            width: 85%;
+            justify-content: center;
+            flex-direction: row;
+            gap: 3%;
+            margin-top: 0%;
+        }
    
                 .card1{
-                        width: 55%;
-                        min-height: 60vh;
+                        width: 95%;
+                        min-height: 50vh;
             
                 }
     
                     .card1 p{
-                        font-size: 26px;
+                        font-size: 24px;
                         margin-bottom: 2%;
                     }
     
@@ -228,7 +241,7 @@
                     }
     
                     .cardSubtext p {
-                        font-size: 20px;
+                        font-size: 18px;
                         width: 60%;
                     } 
 
@@ -244,7 +257,6 @@
             min-height: 30%;
             text-align: center;
             margin-bottom: 6vh;
-
 
         }
 
@@ -267,7 +279,7 @@
    
                 .card1{
                         width: 65%;
-                        min-height: 30vh;
+                        min-height: 28vh;
             
                     }
     
@@ -277,7 +289,7 @@
                     }
     
                     .cardSubtext p {
-                        font-size: 20px;
+                        font-size: 22px;
                     } 
 
                     .card1 p{
@@ -310,8 +322,8 @@
                 }
         
                 .sectionTextC h6{
-                    width: 100%;
-                    font-size: 24px;
+                    width: 90%;
+                    font-size: 20px;
                     line-height: 6vh;
                 }
     
@@ -329,18 +341,18 @@
                 }
    
                 .card1{
-                        width: 85%;
-                        min-height: 30vh;
+                        width: 80%;
+                        min-height: 34vh;
             
                 }
     
                     .card1 p{
-                        font-size: 28px;
+                        font-size: 24px;
                         margin-bottom: 2%;
                     }
     
                     .cardSubtext p {
-                        font-size: 22px;
+                        font-size: 20px;
                     } 
 
 }
@@ -419,20 +431,22 @@
                 }
         
                 .sectionTextC h6{
-                    width: 95%;
+                    width: 90%;
                     font-weight: 300;
                     margin: 0;
-                    font-size: 30px;
+                    font-size: 24px;
+                    line-height: 5vh;
                 }
     
             .cardSectionC{
                 min-height: 100vh;
-                margin-top: 3%;
+                width: 100%;
+                margin-top: 0%;
                 gap: 1%;
             }
     
                 .cardSectionC .rowC{
-                    width: 90%;
+                    width: 85%;
                     height: 50%;
                     display: flex;
                     flex-direction: row;
@@ -444,7 +458,7 @@
    
                 .card1{
                         width: 90%;
-                        min-height: 35vh;
+                        min-height: 30vh;
 
     
                         border-bottom: 8px solid transparent; 
@@ -458,7 +472,7 @@
                     }
     
                     .card1 .emphasizedB{
-                        font-size: 28px;
+                        font-size: 24px!important;
                         margin-bottom:3% ;
                         width: 100%;
                         margin-top: 6vh;
@@ -470,7 +484,7 @@
                     }
     
                     .cardSubtext p {
-                        font-size: 22px;
+                        font-size: 20px!important;
                         font-weight: 400;
                     } 
 
@@ -495,23 +509,30 @@
 
             .sectionTextC{
                 width: 90%;
+                height: 30%;
+                justify-content: space-between;
+
             }
     
                 .sectionTextC h3{
                     font-weight: 500;
+
                 }
         
                 .sectionTextC h6{
-                    width: 95%;
-                    font-size: 26px;
+                    width: 90%;
+                    font-size: 24px;
+                    margin-top: 2%;
+
                 }
     
             .cardSectionC{
                 gap: 0%;
+                margin-top: 0;
             }
     
                 .cardSectionC .rowC{
-                    width: 90%;
+                    width: 80%;
                     flex-direction: row;
                     justify-content: center;
                     align-items: center;
@@ -519,11 +540,12 @@
                 }
    
                 .card1{
-                        min-height: 35vh;
+                        min-height: 28vh;
+                        width: 25vw;
                     }
     
                     .card1 p{
-                        font-size: 28px;
+                        font-size: 26px!important;
                         margin-bottom: 4%;
                         color: var(--neutral-color-grey-800);
                         text-align: center;
@@ -537,7 +559,7 @@
                     }
     
                     .cardSubtext p {
-                        font-size: 22px;
+                        font-size: 20px!important;
                         font-weight: 400;
                     } 
 

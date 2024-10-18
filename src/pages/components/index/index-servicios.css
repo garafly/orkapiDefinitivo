@@ -17,10 +17,12 @@
           justify-content: center;
   
           margin-bottom: 0;
+          background-color: transparent;
       }
   
       .sectionOurServices .titleIndex h3{
         margin-bottom:6vh;
+
       }
   
     .sectionOurServices .services{
@@ -33,7 +35,6 @@
       justify-content: flex-start;
       align-items: center;
       gap: 2%;
-  
   
     } 
   
@@ -62,7 +63,7 @@
         border-radius: 15px;
         padding-bottom: 20px;
         margin: 20px 0;
-  
+
       }
   
       .headerIndex, .bodyIndex{
@@ -142,17 +143,19 @@
         flex-direction: row;
         align-items: flex-start;
         gap: 0;
+        justify-content: center;
 
       } 
     
         .services .rowIndex{
-          width: 50%;
+          width: 48%;
           height: auto;
+        
     
         }
     
         .rowIndex .cardIndex{
-          width:80% ;
+          width:90% ;
           max-height: 15vh;
     
         }
@@ -185,7 +188,7 @@
     
         .rowIndex .cardIndex{
           width:40% ;
-          min-height: 42vh;
+          height: 42vh;
     
         }
 
@@ -287,11 +290,11 @@
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
     
         .services .rowIndex{
-          width: 95%;
+          width: 86%;
           height: 40%;
     
           flex-direction: row;
-          justify-content: center;
+          justify-content: space-around;
           align-items: flex-start;
 
    
@@ -299,7 +302,7 @@
         }
     
         .rowIndex .cardIndex{
-          width:28vw;
+          width:26vw;
           min-height: 45vh;
     
         }
@@ -315,19 +318,24 @@
 /*++++++ XX-Large devices (large desktops and up) +++++++*/
 @media (min-width: 1400px) { 
   .services .rowIndex{
-    width: 90%;
+    width: 80%;
     height: 40%;
 
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     gap: 4%;
 
   }
 
   .rowIndex .cardIndex{
-    width:28vw;
+    width:24vw;
     min-height: 51vh;
+
+  }
+
+  .rowIndex .cardIndex p{
+    line-height: 4vh;
 
   }
 

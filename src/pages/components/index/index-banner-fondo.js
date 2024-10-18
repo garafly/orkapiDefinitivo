@@ -1,7 +1,8 @@
 import React from 'react';
 import "./index-banner-fondo.css"
-import indexBackgroundImage from '../../../images/fondos/indexBackground.png';
+import indexBackgroundImage from '../../../images/fondos/indexBackground.jpg';
 import { navigate } from 'gatsby'; 
+import Servicios from './index-servicios';
 
 
 const lotenetClick = (event) => {
@@ -39,8 +40,9 @@ export default function HomeBanner() {
                     <button onClick={aboutUsClick} className="button1">Sobre nosotros</button>
             </div>
         </div>
-
+        <Servicios></Servicios>
     </div>
+    
 
    
 

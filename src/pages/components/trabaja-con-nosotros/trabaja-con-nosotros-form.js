@@ -6,11 +6,13 @@ export default function TrabajaConNosotrosForm() {
   return (
 
     <div className="applyingSection">
-        <div className="form">
-            <h3>¡Únete al equipo!</h3>
-            <p className="formHeader1">¡Estamos muy contentos con tu interés en trabajar en nuestra empresa!</p>
-            <p className="formHeader">El siguiente paso es proporcionarnos tu información llenando este formulario.</p>
-            <form action="https://formspree.io/f/mldrqvjv" method="POST" className="boxes">
+        <div className="completeForm">
+            <div className="applyingFormIntro">
+                <h3>¡Únete al equipo!</h3>
+                <p className="formHeader1">¡Estamos muy contentos con tu interés en trabajar en nuestra empresa!</p>
+                <p className="formHeader">El siguiente paso es proporcionarnos tu información llenando este formulario:</p>
+            </div>
+            <form action="https://formspree.io/f/mldrqvjv" method="POST" className="workForm">
                 <fieldset>
                     <div className="box">
                         <p className="label">Nombre completo</p>
@@ -39,10 +41,11 @@ export default function TrabajaConNosotrosForm() {
                             <input name="Posición Deseada" id="position" type="text"></input>
                         </label>
                     </div>
+                    <div className="submitButton">
+                        <button type="submit" className="button1">Enviar</button>
+                    </div>
                 </fieldset>
-                <div className="submitButton">
-                    <button type="submit" className="button2">Enviar</button>
-                </div>
+
             </form>
         </div>
     </div>

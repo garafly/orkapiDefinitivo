@@ -31,7 +31,7 @@ export default function TarjetaDescargas() {
             </div>
 
           </div>
-          <div>
+          <div className='downloadButton'>
             <a href="/runner_v0.1.2.apk" download="runner_v0.1.2.apk" target="_blank">
               <button className="button1">Descargar</button>
             </a>

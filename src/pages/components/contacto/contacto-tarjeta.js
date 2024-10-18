@@ -6,8 +6,8 @@ import backgroundImage from '../../../images/fondos/backgroundContactUs.jpg'
 export default function TarjetaContacto() {
   return (
 
-        <div className="container">
-            <div className="imgSide"
+        <div className="containerContacto">
+            <div className="imgSideContacto"
                 style={{ 
                     backgroundImage: `url(${backgroundImage})`, 
                     backgroundRepeat: 'no-repeat',
@@ -15,11 +15,15 @@ export default function TarjetaContacto() {
                 }}
             ></div>
 
-            <div className="formSide">
+            <div className="formSideContacto">
                 <div className="formContainer">
-                    <h1>Contáctanos</h1>
-                    <p className="subText">Siéntase con toda la liberta de escribirnos para saber más, adquirir nuestros servicios o para alguna colaboración</p>
-                    <form  action="https://formspree.io/f/xgvwgqzg" method="POST" className="theForm">
+
+                    <div className='headerContacto'>
+                        <h1>Contáctanos</h1>
+                        <p className="subText">Siéntase con toda la liberta de escribirnos para saber más, adquirir nuestros servicios o para alguna colaboración.</p>
+                    </div>
+
+                    <form action="https://formspree.io/f/xgvwgqzg" method="POST" className="theForm">
                         <fieldset>
                             <div className="formBox1">
                                 <p>Nombre</p>
@@ -51,10 +55,14 @@ export default function TarjetaContacto() {
                                     <input name="Mensaje" className="type2" type="textbox"></input>
                                 </label>
                             </div>
-                        </fieldset>
-                        <button type="submit" className="button1">Enviar Mensaje</button>
-                    </form>
 
+                            <div className="contactSubmitButton">
+                                <button type="submit" className="button1">Enviar Mensaje</button>
+                            </div>
+
+                        </fieldset>
+
+                    </form>
 
                 </div>
             </div>

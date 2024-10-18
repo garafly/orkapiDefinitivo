@@ -23,7 +23,7 @@
     z-index: 1;
 
     background-position: top center;
-    background-size: auto 50%;
+    background-size: auto 26%;
   }
 
 
@@ -42,7 +42,7 @@
 
     .textContent .textBox{
       width: 100%;
-      height: 60vh;
+      height: 74vh;
 
       display: flex;
       flex-direction: column;
@@ -75,6 +75,18 @@
     }
 
 
+    @media (max-width: 575.98px) and (min-height: 768px){ 
+      .mainContainer .textContent{
+        max-height: 80vh;
+  
+      }
+
+        .textContent .textBox{
+          height: 56vh;
+
+        }
+  
+    }    
 
 
 /*++++++++ Small devices (phones, landscape) +++++++++++ */
@@ -88,11 +100,11 @@
       min-height: 100vh;
   
       background-position: top right;
-      background-size: auto 60%;
+      background-size: auto 75%;
     }
   
       .textContent .textBox{
-        height: 45vh;
+        height: 55vh;
       }
 
         .textBox h6{
@@ -125,6 +137,9 @@
         .textBox h6{
           width: 50%;
         }
+      .textContent .buttons{
+        width: 65%;
+      }
 }
 
 
@@ -133,8 +148,8 @@
     .mainContainer .imageBackground{
       min-height: 100vh;
   
-      background-position: top right;
-      background-size: auto 40%;
+      background-position: top center;
+      background-size: auto 60%;
     }
 
     .textContent{
@@ -147,8 +162,16 @@
       }
 
         .textBox h6{
-          width: 50%;
+          width: 60%;
         }
+
+      .textContent .buttons{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 20%;
+        gap: 12%;
+      }
   
 }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -166,7 +189,7 @@
   
     .mainContainer .imageBackground{
       background-position: top right;
-      background-size: auto 70%;
+      background-size: auto 65%;
     }
 
     .textContent{
@@ -179,14 +202,14 @@
       }
 
         .textBox h1{
-          width: 55%;
+          width: 60%;
           line-height: 8vh;
           margin-bottom: 0%;
 
         }
 
         .textBox h6{
-          width: 40%;
+          width: 50%;
           margin-top: 0;
           padding-top: 1%;
           line-height: 4vh;
@@ -194,6 +217,8 @@
   
       .textContent .buttons{
         margin-top: 1%;
+        gap: 1.5%;
+        height: 6%;
       }
 }
 
@@ -232,6 +257,10 @@
   
       .textContent .buttons{
         margin-top: 0%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1.8%;
       }
 }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -241,14 +270,14 @@
 /* Extra large devices (small desktops and larger tablets) */
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
   .mainContainer{
-    min-height: 140vh;
+    min-height: 130vh;
   }
   
     .mainContainer .imageBackground{
       min-height: 100vh;
   
       background-position: top right;
-      background-size: auto 64%;
+      background-size: 90% auto;
     }
 
   
@@ -260,7 +289,7 @@
       }
 
         .textBox h1{
-          width: 55%;
+          width: 60%;
           margin-bottom: 1%;
           line-height: 8vh;
         }
@@ -272,7 +301,7 @@
         }
   
       .textContent .buttons{
-        height: 10%;
+        height: 8vh;
 
         gap: 2%;
         margin-top: 0%;
@@ -282,7 +311,7 @@
 
 
       .buttons button{
-        width: 25%;
+        width: 24%;
         margin: 0;
       }
 }
@@ -304,21 +333,27 @@
       min-height: 100vh;
   
       background-position: top right;
-      background-size: auto 70%;
+      background-size: 100% auto;
     }
   
       .textContent .textBox{
         height: 45vh;
+        gap: 0;
       }
   
         .textBox h1{
           width: 60%;
           margin-bottom: 0%;
+
         }
 
         .textBox h6{
           margin-top: 0;
+          height: 10%;
           width: 100%;
+          line-height: 1.8;
+          
+
         }
   
       .textContent .buttons{
@@ -336,8 +371,7 @@
 
 
       .buttons button{
-        height: 6vh;
-        width: 25%;
+        width: 20%;
         margin: 0;
       }
 }

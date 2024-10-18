@@ -213,10 +213,7 @@
 
 
 
-    button{
-      font-weight: 700;
-      letter-spacing: 0.2vw;
-    }
+
 
 
 
@@ -308,12 +305,6 @@
       font-size: 18px;
     }
 
-
-    button{
-      font-size: 18px;
-      font-weight: 700;
-      letter-spacing: 0.2vw;
-    }
 
     h5{
       font-size: 14px;
@@ -425,11 +416,6 @@
     }
 
 
-    button{
-      font-size: 18px;
-      font-weight: 700;
-      letter-spacing: 0.2vw;
-    }
 
     h5{
       font-size: 14px;
@@ -437,6 +423,17 @@
       font-weight: 300 !important;
       color: #d5d5d5;
       margin-bottom: 0;
+    }
+
+    .button1, .button2{
+      height: 8vh;
+      width: 40%;
+      font-size: 20px;
+      font-weight: 500;
+      border-radius: 30px;
+      padding: 5px 15px 5px 15px;
+      letter-spacing: 0.1vw;
+  
     }
 
     .feature{
@@ -452,7 +449,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) and (min-height: 576px){
 
   h1{
-    font-size: 52px;
+    font-size: 48px;
   }
   
   h3{
@@ -464,7 +461,6 @@
   }
 
   h6{
-    letter-spacing: 0.1vw !important;
     color: var(--neutral-color-grey-1000)!important;
     font-weight: 300 !important;
     font-size: 28px !important;
@@ -475,12 +471,6 @@
   }
 
 
-  button{
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 0.2vw;
-
-  }
 
   h5{
     font-size: 14px;
@@ -488,6 +478,17 @@
     font-weight: 300 !important;
     color: #d5d5d5;
     margin-bottom: 0;
+  }
+
+  .button1, .button2{
+    height: 4vh;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 5px 15px 5px 15px;
+    letter-spacing: 0.1vw;
+
   }
 
   .feature{
@@ -506,7 +507,7 @@
   /* TEXT SIZE */
 
     h1{
-      font-size: 60px;
+      font-size: 50px;
     }
 
     h2{
@@ -516,7 +517,7 @@
     }
 
     h3{
-      font-size: 36px;
+      font-size: 32px;
     }
 
     h4{
@@ -527,18 +528,21 @@
       letter-spacing: 0.1vw !important;
       color: var(--neutral-color-grey-1000)!important;
       font-weight: 300 !important;
-      font-size: 24px;
+      font-size: 20px;
     }
 
     p{
-      font-size: 24px;
+      font-size: 22px;
     }
 
 
-    button{
-      font-size: 18px;
-      font-weight: 700;
-      letter-spacing: 0.2vw;
+    .button1, .button2{
+      height: 5.5vh;
+      font-size: 20px;
+      font-weight: 500;
+      border-radius: 30px;
+      padding: 5px 15px 5px 15px;
+
     }
 
     .feature{
@@ -548,6 +552,8 @@
     .subFeature{
       font-size: 18px;
     }
+
+
 
 }
 
@@ -590,6 +596,7 @@
       font-weight: 500;
       border-radius: 30px;
       padding: 5px 15px 5px 15px;
+      width: 38%;
 
     }
 
@@ -601,11 +608,11 @@
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
     /* Default (Mobile First) */
     h1{
-      font-size: 62px;
+      font-size: 56px;
     }
 
     h3{
-      font-size: 42px;
+      font-size: 38px;
     }
 
     h4{
@@ -620,19 +627,19 @@
     }
 
     p{
-      font-size: 26px!important;
+      font-size: 22px!important;
     }
 
     .feature{
-      font-size: 42px;
+      font-size: 38px;
     }
   
     .subFeature{
-      font-size: 24px;
+      font-size: 20px!important;
     }
 
     .button1, .button2{
-      height: 5vh;
+      height: 4.4vh;
       font-size: 22px;
       font-weight: 500;
       border-radius: 30px;
@@ -649,7 +656,7 @@
     }
 
     h3{
-      font-size: 38px;
+      font-size: 40px;
     }
 
     h4{
@@ -668,17 +675,18 @@
     }
 
     .feature{
-      font-size: 52px;
+      font-size: 50px;
     }
   
     .subFeature{
-      font-size: 24px;
+      font-size: 22px!important;
     }
 
     .button1, .button2{
-      height: 6vh!important;
+      height: 5vh!important;
       font-size: 22px;
       border-radius: 30px;
+
 
     }
 

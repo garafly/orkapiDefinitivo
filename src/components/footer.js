@@ -56,7 +56,7 @@ function Footer() {
             <div className={`flipCard ${isFlipped ? 'flipped' : ''}`}>
               <div className="locationOfficeDR">
                 {/* <StaticImage alt="dominicanRepublicMap" src="../images/repDom.svg" className="officeLocationMaps" /> */}
-                <div className="mapa" style={{backgroundImage: `url(${domMap})`,backgroundRepeat: 'no-repeat',height: '15vh',backgroundSize:'45% auto', backgroundPosition:'center'}}></div> 
+                <div className="mapa" style={{backgroundImage: `url(${domMap})`,backgroundRepeat: 'no-repeat',height: '15vh',backgroundSize:'45% auto', backgroundPosition:'center' }}></div> 
                 <p>García Godoy #81 Plaza Estela, Suite 210 La Vega, República Dominicana.</p>
                 <p>Tel: 809-573-8786</p>
               </div>

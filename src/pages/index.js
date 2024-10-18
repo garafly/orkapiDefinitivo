@@ -5,7 +5,7 @@ import "../components/index.module.css"
 
 
 import HomeBanner from './components/index/index-banner-fondo';
-import Servicios from './components/index/index-servicios';
+// import Servicios from './components/index/index-servicios';
 
 
 
@@ -15,7 +15,7 @@ export default function Home() {
   return (
   <Layout>
     <HomeBanner></HomeBanner>
-    <Servicios></Servicios>
+    {/* <Servicios></Servicios> */}
   </Layout>
   );
 }

@@ -256,41 +256,43 @@
 
 /*+++++++++ Large devices (tablets, landscape) ++++++++++*/
 @media (min-width: 992px) and (max-width: 1199.98px) and (min-height: 600px) and (max-height: 1023.98px){
-
+    .ourClients .row{
+        height: 20vh;
+    }
             #lotedom{
-                background-size: auto 40%; 
-            }
-
-            #loteka{
-                background-size: auto 60%; 
-            }
-
-            #laPrimera{
-                background-size: auto 55%; 
-            }
-
-            #panama{
-                background-size: auto 55%; 
-            }
-
-            #lotewin{
-                background-size: auto 25%; 
-            }
-
-            #espinal{
-                background-size: auto 40%; 
-            }
-
-            #jt{
                 background-size: auto 45%; 
             }
 
+            #loteka{
+                background-size: auto 70%; 
+            }
+
+            #laPrimera{
+                background-size: auto 60%; 
+            }
+
+            #panama{
+                background-size: auto 60%; 
+            }
+
+            #lotewin{
+                background-size: auto 30%; 
+            }
+
+            #espinal{
+                background-size: auto 45%; 
+            }
+
+            #jt{
+                background-size: auto 50%; 
+            }
+
             #haiti{
-                background-size: auto 55%; 
+                background-size: auto 60%; 
             }
 
             #star{
-                background-size: auto 25%; 
+                background-size: auto 35%; 
             }
 
 }
@@ -390,40 +392,44 @@
 /*++++++ XX-Large devices (large desktops and up) +++++++*/
 @media (min-width: 1400px) { 
 
+    .ourClients .row{
+        height:20vh;
+    }
+
     #lotedom{
-        background-size: auto 40%; 
-    }
-
-    #loteka{
-        background-size: auto 65%; 
-    }
-
-    #laPrimera{ 
-        background-size: auto 55%; 
-    }
-
-    #panama{
-        background-size: auto 60%; 
-    }
-
-    #lotewin{
-        background-size: auto 25%; 
-    }
-
-    #espinal{
-        background-size: auto 45%; 
-    }
-
-    #jt{
         background-size: auto 50%; 
     }
 
+    #loteka{
+        background-size: auto 75%; 
+    }
+
+    #laPrimera{ 
+        background-size: auto 65%; 
+    }
+
+    #panama{
+        background-size: auto 70%; 
+    }
+
+    #lotewin{
+        background-size: auto 35%; 
+    }
+
+    #espinal{
+        background-size: auto 50%; 
+    }
+
+    #jt{
+        background-size: auto 55%; 
+    }
+
     #haiti{
-        background-size: auto 60%; 
+        background-size: auto 65%; 
     }
 
     #star{
-        background-size: auto 35%; 
+        background-size: auto 40%; 
     }
 }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */

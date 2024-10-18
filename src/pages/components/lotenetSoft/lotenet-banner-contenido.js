@@ -1,7 +1,7 @@
 import React from "react";
 import "./lotenet-banner-contenido.css";
 import Seo from "../../../components/seo";
-import systemBackgroundImage from '../../../images/fondos/fondo.png';
+import systemBackgroundImage from '../../../images/fondos/fondoLotenet2.jpg';
 import batCall from '../../../images/complementarios/batCall.png';
 import { navigate } from 'gatsby'; 
 

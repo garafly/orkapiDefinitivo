@@ -1,7 +1,7 @@
 import React from 'react';
 import "./trabaja-con-nosotros-banner.css"
 import backgroundImage from '../../../images/fondos/workWithUsBanner.png';
-import puzzlePiece from '../../../images/complementarios/workWithUsPuzzlePiece.png';
+import puzzlePiece from '../../../images/complementarios/workWithUsPuzzlePiece2.png';
 
 
 
@@ -24,15 +24,18 @@ export default function TrabajaConNosotrosBanner() {
                 height: '100vh' 
                 }}
         >
-                <div className="puzzlePiece"
+
+        </div>
+      
+        <div className="puzzlePiece"
                     style={{ 
                         backgroundImage: `url(${puzzlePiece})`, 
                         backgroundRepeat: 'no-repeat',
-                        height: '50vh' 
+                        height: '100vh' ,
+                        filter: 'drop-shadow(15px 15px 5px rgb(158, 0, 0,0.18))'
+                        // filter: 'drop-shadow(30px 10px 4px rgb(158, 0, 0,0.2))'
                         }}
-                >
-
-                </div>
+        >
         </div>
 </div>
 

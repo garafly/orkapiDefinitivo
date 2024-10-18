@@ -125,7 +125,7 @@
         }
 
         .box .logo{
-            min-height:16vh;
+            min-height:20vh;
         }
 
             #logoLotenet{
@@ -154,11 +154,11 @@
 
         .textualContent .box{
             width:55%;
-            min-height: 48vh;
+            min-height: 54vh;
         }
 
         .box .logo{
-            min-height:18vh;
+            min-height:22vh;
         }
 
             #logoLotenet{
@@ -168,6 +168,10 @@
 
         .diveInSection p{
             margin-bottom: 4vh;
+        }
+
+        .diveInSection button{
+            width: 60%;
         }
 }
 
@@ -183,15 +187,19 @@
 
         .textualContent .box{
             width:70%;
-            min-height: 32vh;
+            min-height: 36vh;
         }
 
         .box .logo{
-            min-height:14vh;
+            min-height:17vh;
         }
 
             #logoLotenet{
                 background-size: auto 55%; 
+            }
+
+            .diveInSection button{
+                width: 60%;
             }
 
 }
@@ -231,7 +239,7 @@
         }
 
         .box .logo{
-            min-height:16vh;
+            min-height:15vh;
         }
 
             #logoLotenet{
@@ -297,7 +305,7 @@
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
     .software{
-        height: 80vh;
+        height: 70vh;
         flex-direction: row;
     }
 
@@ -368,7 +376,8 @@
 
         .diveInSection p{
             line-height: 3vh;
-            font-size: 20px;
+            font-size: 22px!important;
+            font-weight: 500!important;
         }
 
         .diveInSection button{

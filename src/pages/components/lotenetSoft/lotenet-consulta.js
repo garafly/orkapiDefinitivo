@@ -4,7 +4,7 @@ import Seo from "../../../components/seo";
 
 // images
 import glowingLogo from '../../../images/complementarios/handAndGlowingLotenet.png';
-import logoLotenet from '../../../images/logos/logoLotenet.png';
+import logoLotenet from '../../../images/logos/logoLotenetSoft.png';
 
 
 
