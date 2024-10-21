@@ -64,7 +64,7 @@ function Footer() {
               <div className="locationOfficePanama">
                 {/* <StaticImage alt="panamaMap" src="../images/panama.svg" className="officeLocationMaps" /> */}
                 <div className="mapa" style={{backgroundImage: `url(${panMap})`,backgroundRepeat: 'no-repeat',height: '15vh',backgroundSize:'45% auto', backgroundPosition:'center'}}></div> 
-                <p>Building 3855, Parque Internacional de Negocios, Panamá, Provincia de Panamá, Panamá</p>
+                <p>Building 3825, Parque Internacional de Negocios, Panamá, Provincia de Panamá Oeste, Panamá.</p>
                 <p>Tel: +507 838-8989</p>
               </div>
             </div>

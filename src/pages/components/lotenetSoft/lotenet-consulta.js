@@ -38,7 +38,7 @@ export default function LotenetConsulta(){
                 </div>
 
                 <div className="diveInSection">
-                    <p className="normalText">Conoce con mayor profundidad todos los servicios que nuestro sistema le puede ofrecer.</p>
+                    <p className="normalText">Conoce con mayor profundidad todos los servicios que nuestro software le puede ofrecer.</p>
                     <button onClick={contactUsClick} className="button1">Adquiere una consulta</button>
                 </div>
 

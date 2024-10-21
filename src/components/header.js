@@ -116,7 +116,7 @@ const Header = ({ siteTitle }) => {
                     <div className="mobileNavIcons" style={{backgroundImage: `url(${roundHubIco})`,backgroundRepeat: 'no-repeat',height: '4vh', backgroundSize:'80% auto', backgroundPosition:'center'}}>
                     </div>
                     <div className="textContent">
-                      <p >Nuestro sistema</p>
+                      <p >Nuestra plataforma</p>
                       <p>Explora el alcance de lo que te podemos ofrecer.</p>
                     </div>
                 </div>

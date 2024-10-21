@@ -31,10 +31,10 @@ export default function HomeBanner() {
         <div className="textContent">
             <div className="textBox">
                 <h1>Soluciones software</h1>
-                <h6>Actualmente empresa líder en sistemas de lotería.</h6>
+                <h6>Actualmente empresa líder en software de lotería.</h6>
             </div>
             <div className="buttons">
-                    <button onClick={lotenetClick} className="button2">Nuestro sistema</button>
+                    <button onClick={lotenetClick} className="button2">Nuestra plataforma</button>
                     <button onClick={aboutUsClick} className="button1">Sobre nosotros</button>
             </div>
         </div>

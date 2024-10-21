@@ -20,7 +20,7 @@ export default function Servicios() {
                     <h4>Sistemas de Gestión de Juegos de Lotería</h4>
                   </div>
                   <div className="bodyIndex">
-                    <p className="normalText">Desarrollo de sistemas completos para la gestión de juegos de lotería, incluyendo administración de sorteos, gestión de premios, seguimiento de ventas, entre otras funcionalidades.</p>
+                    <p className="normalText">Desarrollo de software completos para la gestión de juegos de lotería, incluyendo administración de sorteos, gestión de premios, seguimiento de ventas, entre otras funcionalidades.</p>
                   </div>
                 </div>
 
