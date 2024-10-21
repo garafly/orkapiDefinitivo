@@ -89,7 +89,7 @@
 
 
         .textualContent .box{
-            min-height: 30vh;
+            min-height: 32vh;
         }
 
         .box .logo{
@@ -100,7 +100,7 @@
                 background-size: auto 70%; 
             }
         .diveInSection .button1{
-            width: 70%;
+            width: 80%;
         } 
 
 
