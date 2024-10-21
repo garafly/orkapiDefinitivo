@@ -40,7 +40,7 @@ function Footer() {
 
   const menuItems3 = [
     {label:"Descargas y documentaciones", url:"/descargas"},
-    {label: "Únete al equipo", url: "/trabaja-con-nosotros"}
+    {label: "Únete al equipo", url: "/work-with-us"}
   ];
   const menuItems4 = [
     {label:"info@orkapi.com"}];
