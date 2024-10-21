@@ -6,7 +6,12 @@ import Seo from "../../../components/seo";
 import glowingLogo from '../../../images/complementarios/handAndGlowingLotenet.png';
 import logoLotenet from '../../../images/logos/logoLotenetSoft.png';
 
+import { navigate } from 'gatsby'; 
 
+
+const contactUsClick = (event) => {
+    navigate("/contacto");
+  };
 
 
 export default function LotenetConsulta(){
@@ -34,7 +39,7 @@ export default function LotenetConsulta(){
 
                 <div className="diveInSection">
                     <p className="normalText">Conoce con mayor profundidad todos los servicios que nuestro sistema le puede ofrecer.</p>
-                    <button className="button1">Adquiere una consulta</button>
+                    <button onClick={contactUsClick} className="button1">Adquiere una consulta</button>
                 </div>
 
             </div>

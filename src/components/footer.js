@@ -104,7 +104,7 @@ function Footer() {
           </div>
           <div className="links">
             <a className="footerText" href="/descargas" >Descargas y documentaciones</a>
-            <a className="footerText" href="/trabaja-con-nosotros" >Únete al equipo</a>
+            <a className="footerText" href="/work-with-us" >Únete al equipo</a>
           </div>
         </div>
 
