@@ -67,7 +67,7 @@ export default function Servicios() {
                     <h4>Mantenimiento y Soporte Técnico</h4>
                   </div>
                   <div className="bodyIndex">
-                    <p className="normalText">Servicios de mantenimiento preventivo y correcctivo, con soporte téccnico 24/7 para asegurar la operación continua y eficiente de las plataformas de lotería.</p>
+                    <p className="normalText">Servicios de mantenimiento preventivo y correctivo, con soporte técnico 24/7 para asegurar la operación continua y eficiente de las plataformas de lotería.</p>
                   </div>
               </div>
             </div>
