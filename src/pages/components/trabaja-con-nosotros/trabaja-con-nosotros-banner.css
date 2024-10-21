@@ -62,10 +62,11 @@
             display: flex;
 
             top: 0vh;
-            margin-top: 40%;
+            margin-top: 44%;
 
             background-position: center;
             background-size: 60% auto;
+
 
 
         }
@@ -159,9 +160,9 @@
         }
 
         .puzzlePiece{
-            bottom:-55vh;
+            margin-top: 36% ;
             background-size: 45% auto;
-
+            background-position: center;
         }
     
     
@@ -208,12 +209,7 @@
         }
 
         .puzzlePiece{
-            position: absolute;
-            width: 100vw;
-            display: flex;
-
-            bottom: -58vh;
-
+            margin-top: 32%;
             background-position: center;
             background-size: 30% auto;
 
@@ -263,7 +259,7 @@
     }
 
     .puzzlePiece{
-        bottom: -8vh;
+        margin-top: 15%;
         background-size: 40% auto;
     }
 
@@ -308,7 +304,7 @@
         }
 
         .puzzlePiece{
-            bottom: -16vh;
+            margin-top: 15%;
             background-size: 25% auto;
         }
 
@@ -376,7 +372,7 @@
         }
 
        .puzzlePiece{
-            bottom: -42vh;
+            margin-top: 58%;
             background-position: top center;
             background-size: auto 24%;
 
@@ -419,8 +415,8 @@
         }
 
         .puzzlePiece{
-            bottom: -16vh;
-            background-size: 25% auto;
+            margin-top: 15%;
+            background-size: 30% auto;
         }
 
 }
@@ -469,7 +465,7 @@
         }
 
         .puzzlePiece{
-            bottom: -16vh;
+            margin-top: 12%;
             background-size: 25% auto;
         }
 }
