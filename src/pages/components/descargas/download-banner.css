@@ -122,6 +122,18 @@
 
     }
 
+    .downloadButton{
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .downloadButton button{
+        width: 100%;
+    }
+
 
 }
 
@@ -309,7 +321,7 @@
     }
 
     .downloadInfo .downloadOption{
-        width: 45%;
+        width: 42%;
         height: 45vh;
 
         display: flex;
@@ -598,7 +610,7 @@
     }
 
     .downloadInfo .downloadOption{
-        width: 38%;
+        width: 32%;
         height: 30vh;
 
         display: flex;

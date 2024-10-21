@@ -17,7 +17,7 @@ export default function TarjetaDescargas() {
 
         <div className="downloadInfo">
           <div className="header">
-            <h4>Descargas</h4>
+            <h1>Descargas</h1>
           </div>
           <div className="downloadOption">
             <div className="logo"

@@ -161,14 +161,15 @@
     
                 .sectionTextC h3{
                     padding-bottom: 4%;
-                    width: 80%;
+                    width: 100%;
                     line-height: 10vh;
                 }
         
                 .sectionTextC h6{
-                    width: 98%;
-                    line-height: 6vh;
-                    font-size: 17px;
+                    width: 100%;
+                    line-height: 7vh;
+                    font-size: 20px;
+
                 }
     
                 .cardSectionC .rowC{
@@ -213,8 +214,10 @@
             }
     
                 .sectionTextC h6{
-                    width: 90%;
-                    line-height: 6vh;
+                    width: 100%;
+                    line-height: 8vh;
+                    font-size: 22px;
+    
                 }
 
         .characteristics .cardSectionC {
@@ -270,9 +273,9 @@
                     width: 80%;
                 }
         
-                .sectionTextC p{
-                    width: 95%;
-                    font-weight: 300;
+                .sectionTextC h6{
+                    width: 100%;
+                    font-size: 26px;
                     margin: 0;
                 }
     
@@ -324,7 +327,7 @@
                 .sectionTextC h6{
                     width: 90%;
                     font-size: 20px;
-                    line-height: 6vh;
+                    line-height: 5vh;
                 }
     
             .cardSectionC{

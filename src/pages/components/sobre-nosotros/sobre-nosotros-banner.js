@@ -20,7 +20,7 @@ export default function SobreNosotrosBanner() {
 
         <div className="textAbout">
           <h1>10 años de trayectoria</h1>
-          <p>Brindando el mejor servicio, respaldado por el mejor equipo de trabajo.</p>
+          <h6>Brindando el mejor servicio, respaldado por el mejor equipo de trabajo.</h6>
         </div>
         <div className="buttonAbout">
           <Link to="#mision">

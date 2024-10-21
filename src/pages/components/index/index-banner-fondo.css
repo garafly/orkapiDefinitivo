@@ -37,17 +37,18 @@
     align-items: flex-start;
     z-index: 2;
 
-    margin-left: 4%;
+    margin-left: 6%;
   }
 
     .textContent .textBox{
       width: 100%;
-      height: 74vh;
+      height: 68vh;
 
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
       align-items: flex-start;
+
 
     }
 
@@ -58,7 +59,9 @@
       }
 
       .textBox h6{
+        width: 80%;
         padding-left: 0;
+        margin-top: 0;
       }
 
 
@@ -85,6 +88,10 @@
           height: 56vh;
 
         }
+
+        .textBox h6{
+          line-height: 3vh;
+        }
   
     }    
 
@@ -109,6 +116,7 @@
 
         .textBox h6{
           width: 50%;
+          line-height: 7vh;
         }
   
 }
@@ -135,7 +143,8 @@
       }
 
         .textBox h6{
-          width: 50%;
+          width: 40%;
+          line-height: 6vh;
         }
       .textContent .buttons{
         width: 65%;
@@ -157,20 +166,22 @@
     }
   
       .textContent .textBox{
-        height: 40vh;
+        height: 32vh;
   
       }
 
         .textBox h6{
           width: 60%;
+          line-height: 3.2vh;
+          margin-bottom: 2%;
         }
 
       .textContent .buttons{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        height: 20%;
-        gap: 12%;
+        height: 25%;
+        gap: 30px;
       }
   
 }
@@ -189,7 +200,7 @@
   
     .mainContainer .imageBackground{
       background-position: top right;
-      background-size: auto 65%;
+      background-size: auto 55%;
     }
 
     .textContent{
@@ -211,8 +222,9 @@
         .textBox h6{
           width: 50%;
           margin-top: 0;
-          padding-top: 1%;
+          padding-top: 0%;
           line-height: 4vh;
+          margin-top: 0;
         }
   
       .textContent .buttons{
@@ -224,43 +236,51 @@
 
 @media (min-width: 992px) and (max-width: 1199.98px) and (min-height: 1024px){
   .mainContainer{
-    height: 80vh;
+    min-height: 140vh;
+    margin-bottom: 10vh;
   }
   
     .mainContainer .imageBackground{
-      min-height: 100vh;
-  
+      height: 100vh;
       background-position: top right;
-      background-size: auto 40%;
+      background-size: auto 30%;
+
+      margin-bottom: 0;
     }
 
-    .textContent{
-      margin-top: 1vh;
+    .mainContainer .textContent{
+      width: 70%;
+      max-height: 10vh!important;
+      margin-top: 6vh;
+
     }
   
       .textContent .textBox{
-        height: 30vh;
-  
+        height: 40vh;
+        margin-top: 4%;
+
       }
 
         .textBox h1{
-          width: 45%;
-          line-height: 5vh;
-          margin-bottom: 1%;
+          width: 80%;
+          line-height: 6vh;
+          margin-bottom: 0%;
+
         }
 
         .textBox h6{
-          width: 40%;
-          line-height: 2vh;
+          width: 100%;
           margin-top: 0;
+          padding-top: 1%;
+          line-height: 3vh;
         }
   
       .textContent .buttons{
         margin-top: 0%;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 1.8%;
+        gap: 1.5%;
+        height: 6%;
+
+  
       }
 }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */

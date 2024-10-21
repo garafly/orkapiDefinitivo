@@ -28,8 +28,6 @@ export default function HomeBanner() {
             }}
         > 
         </div>
-
-
         <div className="textContent">
             <div className="textBox">
                 <h1>Soluciones software</h1>

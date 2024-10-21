@@ -28,7 +28,7 @@ export default function BannerLotenet(){
                     
                     <div className="mainTitleLotenet">
                         <h1>Conoce Lotenet Soft</h1>
-                        <p>Nuestro sistema de gestión para empresas de lotería.</p>
+                        <h6>Nuestro sistema de gestión para empresas de lotería.</h6>
                     </div>
 
                     <div className="bannerPromotion">

@@ -75,7 +75,7 @@
 @media (max-width: 575.98px) and (min-height: 768px){
        
     .software{
-        height: 85vh;
+        height: 78vh;
     }
     
     .software .logoInHand{
@@ -89,7 +89,7 @@
 
 
         .textualContent .box{
-            min-height: 35vh;
+            min-height: 30vh;
         }
 
         .box .logo{
@@ -99,6 +99,9 @@
             #logoLotenet{
                 background-size: auto 70%; 
             }
+        .diveInSection .button1{
+            width: 70%;
+        } 
 
 
 }
@@ -280,8 +283,9 @@
 
         .textualContent .box{
             width:70%;
-            min-height: 35vh;
+            min-height: 38vh;
             justify-content: center;
+
         }
 
         .box .logo{
@@ -292,8 +296,9 @@
                 background-size: auto 55%; 
             }
 
-        button{
-            margin-top: 4%;
+        .box button{
+            margin-top: 0%;
+            width: 60%;
         }
 }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */

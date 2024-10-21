@@ -46,9 +46,10 @@
             margin-bottom: 1%;
         }
 
-        .headerContacto p{
+        .headerContacto h6{
             width: 100%;
-            line-height: 3vh;
+            padding-left: 0;
+
         }
 
 
@@ -178,6 +179,7 @@
     .formBox2 input{
         height: 10vh;
     }
+
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
@@ -270,6 +272,13 @@
     .formContainer .headerContacto{
         margin-top: 10vh;
         margin-bottom: 0;
+        text-align: center;
+    }
+
+    .headerContacto h6{
+        width: 90%;
+        margin-left: 5%;
+        line-height: 7vh;
     }
 
 
@@ -284,6 +293,7 @@
     .theForm fieldset{
         padding-top: 12vh;
         padding-bottom: 10vh;
+        width: 66%;
 
     }
 
@@ -333,9 +343,18 @@
 
 
     .formContainer .headerContacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: 2vh;
-        margin-bottom: 0;
+        margin-bottom: 2%;
         height: 22vh;
+    }
+
+    .headerContacto h6{
+        width: 95%;
+        padding-left: 2%;
     }
 
 
@@ -349,7 +368,8 @@
 
     .theForm fieldset{
         padding-top: 8vh;
-        padding-bottom: 8vh;
+        padding-bottom: 6vh;
+        width: 70%;
 
     }
 
@@ -415,6 +435,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin-top: 6vh;
 
     }
 
@@ -422,17 +443,19 @@
         width: 90%;
         font-size: 32px;
         line-height: 4vh;
-        margin-bottom: 2%;
+        margin-bottom: 1%;
         padding-left: 6%;
         text-align: center;
     }
 
-    .formContainer .headerContacto p{
-        width: 95%;
+    .formContainer .headerContacto h6{
+        width: 86%;
         line-height: 3vh;
         margin-bottom: 4%;
-        padding-left: 6%;
-        font-size: 14px!important;
+        margin-left: 8%;
+        padding-left: 0%;
+        font-size: 16px!important;
+
     }
 
     .theForm{
@@ -447,11 +470,12 @@
         margin-bottom: 2%;
         padding-left: 8%;
         padding-right: 8%;
+        padding-bottom: 6%;
 
     }
 
     fieldset .formBox1{
-        height: 10vh;
+        height: 8vh;
     }
 
     .formBox1 p{
@@ -507,8 +531,9 @@
     }
 
 
-    .formContainer p{
-        line-height: 4vh;
+    .formContainer h6{
+        line-height: 3vh;
+        font-size: 26px;
     }
 
     .theForm{
@@ -516,7 +541,7 @@
     }
 
     .theForm fieldset{
-        padding-top: 8vh;
+        padding-top: 6vh;
         padding-bottom: 8vh;
 
     }
@@ -525,16 +550,20 @@
         padding-left: 4%;
     }
 
+    fieldset p{
+        font-size: 30px;
+    }
+
     fieldset .formBox1{
         height: 14vh;
     }
 
     input{
-        height: 6vh;
+        height: 5vh;
     }
 
     .formBox2 input{
-        height: 16vh;
+        height: 15vh;
         width: 95%;
 
     }
@@ -596,7 +625,7 @@
         text-align: center;
     }
 
-    .formContainer .headerContacto p{
+    .formContainer .headerContacto h6{
         width: 95%;
         line-height: 3vh;
         margin-bottom: 4%;

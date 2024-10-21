@@ -20,7 +20,7 @@ export default function TarjetaContacto() {
 
                     <div className='headerContacto'>
                         <h1>Contáctanos</h1>
-                        <p className="subText">Siéntase con toda la liberta de escribirnos para saber más, adquirir nuestros servicios o para alguna colaboración.</p>
+                        <h6 className="subText">Siéntase con toda la liberta de escribirnos para saber más, adquirir nuestros servicios o para alguna colaboración.</h6>
                     </div>
 
                     <form action="https://formspree.io/f/xgvwgqzg" method="POST" className="theForm">

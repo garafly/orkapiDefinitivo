@@ -81,11 +81,9 @@
 
 }
 
-
   html, body{
     background-color: white;
   }
-
 
 
 /* "SPAN" classes for text */
@@ -103,7 +101,6 @@
 
 
 /* TEXT HTML TAGS  */
-
     h1,h2,h3,h4,h5,h6{
       font-family: var(--fontFamily-roboto)!important;
     }
@@ -129,7 +126,6 @@
 
 
 /* BUTTON Classes */
-
     .button1{
       height: 42px;
       width: auto;
@@ -142,7 +138,6 @@
       border: none;
     }
 
-
     .button1:hover{
       border: 1px solid #ff020292;
       box-shadow: rgba(122, 119, 119, 0.17) 0px -23px 25px 0px inset, rgba(229, 227, 227, 0.15) 0px -36px 30px 0px inset, rgba(255, 248, 248, 0.1) 0px -79px 40px 0px inset, rgba(223, 222, 222, 0.06) 0px 2px 1px, rgba(93, 93, 93, 0.09) 0px 4px 2px, rgba(86, 83, 83, 0.09) 0px 8px 4px, rgba(138, 137, 137, 0.09) 0px 16px 8px, rgba(249, 144, 144, 0.09) 0px 32px 16px;
@@ -153,7 +148,6 @@
       transform: scale(1.06);
       transition: 0.2s linear;
     }
-
 
     .button2{
       height: 40px;
@@ -182,10 +176,9 @@
 
 /* Extra small devices (phones, portrait) */
 
+  /* TEXT Colors per Tags */
 
-  /* TEXT SIZE */
 
-    /* Default (Mobile First) */
     h1{
       color: var(--neutral-color-grey-900);
 
@@ -201,9 +194,9 @@
     }
 
     h6{
-      letter-spacing: 0.1vw !important;
-      color: var(--neutral-color-grey-1000)!important;
-      font-weight: 300 !important;
+      letter-spacing: 0.1vw ;
+      color: var(--neutral-color-grey-1000);
+      font-weight: 300 ;
     }
 
     p{
@@ -226,54 +219,70 @@
 
 @media (max-width: 575.98px) and (max-height: 767.98px) { 
 
-  /* TEXT SIZE */
+  /* ++++ TEXT SIZE ++++ */
 
-    h1{
-      font-size: 32px;
-    }
-
-    h3{
-      font-size: 24px;
-    }
-
-    h4{
-      font-size: 22px;
-    }
-
-    h6{
-      letter-spacing: 0.1vw !important;
-      color: var(--neutral-color-grey-1000)!important;
-      font-weight: 300 !important;
-      font-size: 24px;
-    }
-
-    p{
-      font-size: 16px;
-    }
+    /* main titles*/
+      h1{
+        font-size: 30px;
+      }
+    /*============================*/
 
 
-    button{
-      font-size: 16px;
-      font-weight: 700;
-      letter-spacing: 0.2vw;
-    }
+    /* section titles */
+      h3{
+        font-size: 24px;
+      }
+    /*============================*/
 
 
-    h5{
-      font-size: 14px;
-      letter-spacing: 0.1vw !important;
-      font-weight: 300 !important;
-      color: #d5d5d5;
-      margin-bottom: 0;
-    }
+    /* section subsections */
+      h4{
+        font-size: 22px;
+      }
+    /*============================*/
 
-    .feature{
-      font-size: 28px;
-    }
 
-    .subFeature{
-      font-size: 16px;
-    }
+    /* emphasized or featured text*/
+      h6{
+        font-size: 20px;      }
+    /*============================*/
+
+
+    /* common text */
+      p{
+        font-size: 16px;
+      }
+    /*================*/
+
+
+    /* Buttons */
+      .button1, .button2{
+        font-size: 16px;
+        letter-spacing: 0.2vw;
+      }
+    /*============================*/
+
+
+    /* Only copywrite text on footer*/
+      h5{
+        font-size: 14px;
+        letter-spacing: 0.1vw !important;
+        font-weight: 300 !important;
+        color: #d5d5d5;
+        margin-bottom: 0;
+      }
+    /*============================*/
+
+
+    /* only shown on index page */
+      .feature{
+        font-size: 28px;
+      }
+
+      .subFeature{
+        font-size: 16px;
+      }
+    /*============================*/
 
 
 }
@@ -282,46 +291,69 @@
 
   /* TEXT SIZE */
 
-    h1{
-      font-size: 34px;
-    }
-
-    h3{
-      font-size: 28px;
-    }
-
-    h4{
-      font-size: 26px;
-    }
-
-    h6{
-      letter-spacing: 0.1vw !important;
-      color: var(--neutral-color-grey-1000)!important;
-      font-weight: 300 !important;
-      font-size: 24px;
-    }
-
-    p{
-      font-size: 18px;
-    }
+    /* main titles*/
+      h1{
+        font-size: 32px;
+      }
+    /*============================*/
 
 
-    h5{
-      font-size: 14px;
-      letter-spacing: 0.1vw !important;
-      font-weight: 300 !important;
-      color: #d5d5d5;
-      margin-bottom: 0;
-    }
+    /* section titles */
+      h3{
+        font-size: 26px;
+      }
+    /*============================*/
 
-    .feature{
-      font-size: 34px;
-    }
+    /* section subsections */
+      h4{
+        font-size: 24px;
+        line-height: 3.5vh;
+      }
+    /*============================*/
 
-    .subFeature{
-      font-size: 20px;
-    }
+    /* emphasized or featured text*/   
+      h6{
+        font-size: 20px;
+      }
+    /*============================*/
 
+
+    /* common text */
+      p{
+        font-size: 18px;
+      }
+    /*============================*/
+
+    /* Buttons */
+      .button1, .button2{
+        width: 40%;
+        font-size: 16px;
+        letter-spacing: 0.1vw;
+      }
+
+    /*============================*/
+
+
+    /* Only copywrite text on footer*/
+      h5{
+        font-size: 12px;
+        letter-spacing: 0.1vw !important;
+        font-weight: 300 !important;
+        color: #d5d5d5;
+        margin-bottom: 0;
+      }
+    /*============================*/
+
+
+    /* only shown on index page */
+      .feature{
+        font-size: 32px;
+      }
+
+      .subFeature{
+        font-size: 18px;
+      }
+    /*============================*/
 
 }
     /* +++++++++++++++++++++++++++++++++++++++++++ */
@@ -333,53 +365,71 @@
 @media (min-width: 576px) and (max-width: 767.98px) and (min-height: 300px) and (max-height: 575.98px) { 
 
   /* TEXT SIZE */
-    h1{
-      font-size: 34px;
-    }
 
-    h3{
-      font-size: 28px;
-    }
-
-    h4{
-      font-size: 24px;
-    }
-
-    h6{
-      letter-spacing: 0.1vw !important;
-      color: var(--neutral-color-grey-1000)!important;
-      font-weight: 300 !important;
-      font-size: 24px;
-    }
-
-    p{
-      font-size: 16px;
-    }
+    /* main titles*/
+      h1{
+        font-size: 32px;
+      }
+    /*============================*/
 
 
-    button{
-      font-size: 16px;
-      font-weight: 700;
-      letter-spacing: 0.2vw;
-    }
-
-    h5{
-      font-size: 14px;
-      letter-spacing: 0.1vw !important;
-      font-weight: 300 !important;
-      color: #d5d5d5;
-      margin-bottom: 0;
-    }
+    /* section titles */
+      h3{
+        font-size: 26px;
+      }
+    /*============================*/
 
 
-    .feature{
-      font-size: 30px;
-    }
+    /* section subsections */
+      h4{
+        font-size: 24px;
+      }
+    /*============================*/
 
-    .subFeature{
-      font-size: 18px;
-    }
 
+    /* emphasized or featured text*/ 
+      h6{
+        font-size: 20px;
+
+      }
+    /*============================*/
+
+
+    /* common text */
+      p{
+        font-size: 18px;
+      }
+    /*============================*/
+
+
+    /* Buttons */
+      .button1, .button2{
+        font-size: 16px;
+        letter-spacing: 0.2vw;
+      }
+    /*============================*/
+
+
+    /* Only copywrite text on footer*/
+      h5{
+        font-size: 12px;
+        letter-spacing: 0.1vw !important;
+        font-weight: 300 !important;
+        color: #d5d5d5;
+        margin-bottom: 0;
+      }
+    /*============================*/
+
+
+    /* only shown on index page */
+      .feature{
+        font-size: 30px;
+      }
+
+      .subFeature{
+        font-size: 18px;
+      }
+    /*============================*/
 
 }
     /* +++++++++++++++++++++++++++++++++++++++++++ */
@@ -388,16 +438,16 @@
 
 
   /*==== Medium devices (tablets, portrait) ====*/
-  @media (min-width: 768px) and (max-width: 991.98px) and (min-height: 300px) and (max-height: 575.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) and (min-height: 300px) and (max-height: 575.98px) { 
 
   /* TEXT SIZE */
 
     h1{
-      font-size: 42px;
+      font-size: 38px;
     }
     
     h3{
-      font-size: 28px;
+      font-size: 30px;
     }
 
     h4{
@@ -405,14 +455,11 @@
     }
 
     h6{
-      letter-spacing: 0.1vw !important;
-      color: var(--neutral-color-grey-1000)!important;
-      font-weight: 300 !important;
-      font-size: 24px;
+      font-size: 22px;
     }
 
     p{
-      font-size: 18px;
+      font-size: 20px;
     }
 
 
@@ -428,7 +475,7 @@
     .button1, .button2{
       height: 8vh;
       width: 40%;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 500;
       border-radius: 30px;
       padding: 5px 15px 5px 15px;
@@ -441,7 +488,7 @@
     }
 
     .subFeature{
-      font-size: 20px;
+      font-size: 18px;
     }
 
 }
@@ -449,7 +496,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) and (min-height: 576px){
 
   h1{
-    font-size: 48px;
+    font-size: 44px;
   }
   
   h3{
@@ -457,13 +504,11 @@
   }
 
   h4{
-    font-size: 32px;
+    font-size: 30px;
   }
 
   h6{
-    color: var(--neutral-color-grey-1000)!important;
-    font-weight: 300 !important;
-    font-size: 28px !important;
+    font-size: 26px;
   }
 
   p{
@@ -483,16 +528,16 @@
   .button1, .button2{
     height: 4vh;
     width: 40%;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     border-radius: 30px;
     padding: 5px 15px 5px 15px;
-    letter-spacing: 0.1vw;
+    letter-spacing: 0.2vw;
 
   }
 
   .feature{
-    font-size: 42px;
+    font-size: 40px;
   }
 
   .subFeature{
@@ -507,7 +552,7 @@
   /* TEXT SIZE */
 
     h1{
-      font-size: 50px;
+      font-size: 44px;
     }
 
     h2{
@@ -521,36 +566,34 @@
     }
 
     h4{
-      font-size: 24px;
+      font-size: 22px;
     }
 
     h6{
-      letter-spacing: 0.1vw !important;
-      color: var(--neutral-color-grey-1000)!important;
-      font-weight: 300 !important;
-      font-size: 20px;
+      font-size: 18px;
     }
 
     p{
-      font-size: 22px;
+      font-size: 18px;
     }
 
 
     .button1, .button2{
       height: 5.5vh;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 500;
       border-radius: 30px;
       padding: 5px 15px 5px 15px;
+      letter-spacing: 0.1vw;
 
     }
 
     .feature{
-      font-size: 38px;
+      font-size: 34px;
     }
   
     .subFeature{
-      font-size: 18px;
+      font-size: 16px;
     }
 
 
@@ -560,7 +603,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) and (min-height: 1024px){
     /* Default (Mobile First) */
     h1{
-      font-size: 72px;
+      font-size: 56px;
     }
 
     h3{
@@ -572,14 +615,11 @@
     }
 
     h6{
-      letter-spacing: 0.1vw !important;
-      color: var(--neutral-color-grey-1000)!important;
-      font-weight: 300 !important;
-      font-size: 24px;
+      font-size: 28px;
     }
 
     p{
-      font-size: 36px!important;
+      font-size: 30px;
     }
 
     .feature{
@@ -597,6 +637,7 @@
       border-radius: 30px;
       padding: 5px 15px 5px 15px;
       width: 38%;
+      letter-spacing: 0.1vw;
 
     }
 
