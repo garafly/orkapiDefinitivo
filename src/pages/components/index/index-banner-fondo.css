@@ -121,7 +121,31 @@
   
 }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/*====   EXTRA SIZE FOR DESKTOP RESPONSIVENESS  ====*/
+@media (min-width: 576px) and (max-width: 767.98px) and (min-height: 576px) and (max-height: 773px) { 
+  .mainContainer{
+    min-height: 120vh;
 
+  }
+  
+    .mainContainer .imageBackground{
+      min-height: 100vh;
+  
+      background-position: top right;
+      background-size: auto 45%;
+    }
+  
+      .textContent .textBox{
+        height: 55vh;
+      }
+
+        .textBox h6{
+          width: 50%;
+          line-height: 7vh;
+        }
+
+}
+    /* +++++++++++++++++++++++++++++++++++++++++++ */
 
 
 

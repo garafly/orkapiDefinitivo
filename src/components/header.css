@@ -509,6 +509,119 @@ header {
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
+/*====   EXTRA SIZE FOR DESKTOP RESPONSIVENESS  ====*/
+@media (min-width: 576px) and (max-width: 767.98px) and (min-height: 576px) and (max-height: 773px) { 
+  header .navLinks {
+    display: none;
+  }
+
+  header .mobile-menu .dropdown-menu {
+    width: 85vw;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+  }
+
+  header .mobile-menu .dropdown-menu .linksDropdownMenu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  header .mobile-menu .dropdown-menu .linksDropdownMenu .menuDivision {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 0;
+    margin: 0;
+
+
+  }
+
+  header .mobile-menu .dropdown-menu .linksDropdownMenu .dropdown-item {
+      width: 90%;
+      height: 14vh;
+
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      margin-bottom: 0%;
+
+  }
+
+  header .mobile-menu .dropdown-menu .linksDropdownMenu .dropdown-item p:first-child {
+     font-weight: 700;
+
+  }
+
+  header .mobile-menu .dropdown-menu .linksDropdownMenu .dropdown-item p:nth-child(2) {
+    line-height: 3vh;
+ }
+
+  header .mobile-menu .dropdown-menu .linksDropdownMenu .dropdown-item .mobileNavIcons {
+    width: 5vw;
+    height: 9vh!important;
+
+    padding: 2px 4px;
+    border-radius: 50%;
+    background-color: transparent;
+    /* background-color:  #f9937a2e; */
+  }
+
+  header .mobile-menu .dropdown-menu .linksDropdownMenu .dropdown-item .textContent{
+      width: 80%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: start;
+      padding-left: 1vw;
+  }
+
+  header .mobile-menu .dropdown-menu .socialDropdownMenu {
+      width: 100%;
+      height: 8vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid var(--neutral-color-grey-900);
+      background-color: var(--neutral-color-grey-1000);
+  }
+
+  header .mobile-menu .dropdown-menu .socialDropdownMenu .socialMediaLogos {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+
+  }
+
+  header .mobile-menu .dropdown-menu .socialDropdownMenu .socialMediaLogos .socialMediaLogo {
+      width: 28%;
+      border-radius: 30%;
+      background-color: #eaeaf3;
+      border: 1px solid var(--neu);
+
+  }
+
+}
+    /* +++++++++++++++++++++++++++++++++++++++++++ */
+
 
 
 
