@@ -33,7 +33,7 @@ function Footer() {
   ];
 
   const menuItems2 = [
-    {label:"Sistema de lotería", url:"/lotenet-soft"},
+    {label:"Plataforma de lotería", url:"/lotenet-soft"},
     {label:"Nuestros servicios", url:"/"},
     {label: "Sobre nosotros", url:"/sobre-nosotros"}
   ];
