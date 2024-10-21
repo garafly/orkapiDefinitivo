@@ -17,7 +17,7 @@ export default function Servicios() {
             <div className="rowIndex">
                 <div className="cardIndex">
                   <div className="headerIndex">
-                    <h4>Sistemas de Gestión de Juegos de Lotería</h4>
+                    <h4>Plataforma de Gestión de Juegos de Lotería</h4>
                   </div>
                   <div className="bodyIndex">
                     <p className="normalText">Desarrollo de software completos para la gestión de juegos de lotería, incluyendo administración de sorteos, gestión de premios, seguimiento de ventas, entre otras funcionalidades.</p>
