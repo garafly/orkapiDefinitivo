@@ -91,7 +91,7 @@ function Footer() {
             <h2>En nuestra página</h2>
           </div>
           <div className="links">
-            <a className="footerText" href="/lotenet-soft" >Sistema de lotería</a>
+            <a className="footerText" href="/lotenet-soft" >Plataforma de lotería</a>
             <a className="footerText" href="/" >Nuestros servicios</a>
             <a className="footerText" href="/sobre-nosotros" >Sobre nosotros</a>
           </div>
