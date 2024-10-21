@@ -33,7 +33,7 @@ export default function seventhPage(){
             <div className="headerOffice">
                 <h3>Nuestra oficina</h3>
                 <h4>Sede República Dominicana</h4>
-                <h6>Está ubicada en la calle García Godoy #81 Plaza Estela, Suite 210 La Vega, República Dominicana. </h6>
+                <h6 className="loc">Está ubicada en la calle García Godoy #81 Plaza Estela, Suite 210 La Vega, República Dominicana. </h6>
             </div>
 
             <div className="mapG">

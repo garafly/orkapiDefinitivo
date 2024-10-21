@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import "./contacto.css";
+
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import TarjetaContacto from './components/contacto/contacto-tarjeta';

@@ -33,7 +33,7 @@ export default function seventhPage(){
             <div className="headerOffice">
                 <h3>Nuestra oficina</h3>
                 <h4>Sede Panamá</h4>
-                <h6>Está ubicada en el Building 3855, Parque Internacional de Negocios, Panamá, Provincia de Panamá, Panamá </h6>
+                <h6 className="loc">Está ubicada en el Building 3855, Parque Internacional de Negocios, Panamá, Provincia de Panamá, Panamá </h6>
             </div>
 
             <div className="mapG">

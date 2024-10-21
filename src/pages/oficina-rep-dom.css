@@ -292,7 +292,7 @@
                 margin-bottom: 0;
             }
 
-            h6{
+            .headerOffice .loc{
                 line-height: 8vh;
                 width: 90%;
                 margin-top: 4%;
@@ -347,7 +347,7 @@
                 margin-bottom: 0;
             }
 
-            h6{
+            .headerOffice .loc{
                 line-height: 4vh;
                 width: 90%;
                 margin-top: 4%;
@@ -405,7 +405,7 @@
                 margin-bottom: 0;
             }
 
-            h6{
+            .headerOffice .loc{
                 line-height: 4vh;
                 width: 90%;
                 margin-top: 4%;
@@ -460,8 +460,8 @@
                 margin-bottom: 0;
             }
 
-            h6{
-                line-height: 4vh;
+            .headerOffice .loc{
+                line-height: 3vh;
                 width: 90%;
                 margin-top: 4%;
                 padding-left: 6%;
@@ -520,8 +520,8 @@
                 margin-bottom: 0;
             }
 
-            h6{
-                line-height: 8vh;
+            .headerOffice .loc{
+                line-height: 4vh;
                 width: 90%;
                 margin-top: 4%;
                 padding-left: 6%;
@@ -583,8 +583,8 @@
                 margin-bottom: 0;
             }
 
-            .headerOffice h6{
-                line-height: 8vh;
+            .headerOffice .loc{
+                line-height: 3vh;
                 width: 90%;
                 margin-top: 4%;
                 padding-left: 6%;
