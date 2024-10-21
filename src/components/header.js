@@ -84,7 +84,7 @@ const Header = ({ siteTitle }) => {
 
       <div className="navLinks">
       <div className="navLink"><a className="navText" href="/">Inicio</a></div>
-        <div className="navLink"><a className="navText" href="/lotenet-soft">Sistema de lotería</a></div>
+        <div className="navLink"><a className="navText" href="/lotenet-soft">Plataforma de lotería</a></div>
         <div className="navLink"><a className="navText" href="/sobre-nosotros">Sobre nosotros</a></div>
         <div className="navLink"><a className="navText" href="/work-with-us">Únete al equipo</a></div>
         <div className="navLink"><a className="navText" href="/descargas">Descargas</a></div>
