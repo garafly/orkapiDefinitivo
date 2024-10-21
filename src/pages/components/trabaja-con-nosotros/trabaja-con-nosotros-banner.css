@@ -58,12 +58,15 @@
         .puzzlePiece{
             position: absolute;
             width: 100vw;
+            
             display: flex;
 
-            bottom: -20vh;
+            top: 0vh;
+            margin-top: 40%;
 
             background-position: center;
             background-size: 60% auto;
+
 
         }
 
@@ -115,7 +118,8 @@
     .puzzlePiece{
         background-position: center;
         background-size: 65% auto;
-        bottom: -20vh;
+        top:0;
+
 
     }
     
