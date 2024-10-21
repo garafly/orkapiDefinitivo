@@ -721,7 +721,7 @@
 
     }
 
-    .formContainer .headerContacto h1{
+    .headerContacto h1{
         width: 90%;
         font-size: 40px;
         line-height: 4vh;
@@ -730,7 +730,7 @@
         text-align: center;
     }
 
-    .formContainer .headerContacto h6{
+    .headerContacto h6{
         width: 95%;
         line-height: 3vh;
         margin-bottom: 2%;
