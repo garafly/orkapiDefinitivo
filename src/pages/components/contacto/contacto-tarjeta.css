@@ -740,10 +740,10 @@
     }
 
     .headerContacto h6{
-        width: 95%;
-        line-height: 3vh;
-        margin-bottom: 2%;
-        padding-left: 6%;
+        width: 95%!important;
+        line-height: 3vh!important;
+        margin-bottom: 2%!important;
+        padding-left: 6%!important;
         letter-spacing: 0vw!important;
 
     }
