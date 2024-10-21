@@ -54,7 +54,7 @@ export default function TrabajaConNosotrosForm() {
                         </div>
 
                         <div className="box">
-                            <p className="label">Email / correo-electrónico</p>
+                            <p className="label">Email / Correo-electrónico</p>
                             <label htmlFor="email-adress">
                                 <input name="Email" id="email" type="email" ></input>
                             </label>
